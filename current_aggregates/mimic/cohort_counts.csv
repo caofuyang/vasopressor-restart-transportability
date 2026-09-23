@@ -1,0 +1,13 @@
+corrected_analysis_split,corrected_outcome_code,n,analysis
+development,0,4105,primary
+development,1,3148,primary
+development,2,1337,primary
+temporal_validation,0,231,primary
+temporal_validation,1,320,primary
+temporal_validation,2,138,primary
+development,0,4105,strict
+development,1,3146,strict
+development,2,1271,strict
+temporal_validation,0,231,strict
+temporal_validation,1,320,strict
+temporal_validation,2,129,strict

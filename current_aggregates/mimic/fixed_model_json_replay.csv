@@ -1,0 +1,13 @@
+model,n,max_absolute_prediction_difference,tolerance,judgement
+mimic_primary__clinical_multinomial_logistic,689,2.220446049250313e-16,1e-10,match
+mimic_primary__dynamic_multiclass_hgb,689,0.0,1e-10,match
+mimic_primary__dynamic_multinomial_logistic,689,4.440892098500626e-16,1e-10,match
+mimic_primary__laboratory_extended_multiclass_hgb,689,0.0,1e-10,match
+ablation__source__corrected_primary__harmonized_dynamic_vitals,689,4.440892098500626e-16,1e-10,match
+ablation__source__corrected_primary__harmonized_last_values,689,2.220446049250313e-16,1e-10,match
+mimic_strict__clinical_multinomial_logistic,680,2.220446049250313e-16,1e-10,match
+mimic_strict__dynamic_multiclass_hgb,680,0.0,1e-10,match
+mimic_strict__dynamic_multinomial_logistic,680,5.551115123125783e-16,1e-10,match
+mimic_strict__laboratory_extended_multiclass_hgb,680,0.0,1e-10,match
+ablation__source__corrected_strict__harmonized_dynamic_vitals,680,4.996003610813204e-16,1e-10,match
+ablation__source__corrected_strict__harmonized_last_values,680,4.440892098500626e-16,1e-10,match

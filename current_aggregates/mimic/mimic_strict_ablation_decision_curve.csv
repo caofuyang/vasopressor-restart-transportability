@@ -1,0 +1,17 @@
+analysis,threshold,model,net_benefit
+scope_corrected_strict,0.2,treat_all,0.3382352941176471
+scope_corrected_strict,0.2,treat_none,0.0
+scope_corrected_strict,0.2,harmonized_dynamic_vitals,0.35551470588235295
+scope_corrected_strict,0.2,harmonized_last_values,0.35661764705882354
+scope_corrected_strict,0.3,treat_all,0.2436974789915966
+scope_corrected_strict,0.3,treat_none,0.0
+scope_corrected_strict,0.3,harmonized_dynamic_vitals,0.2699579831932773
+scope_corrected_strict,0.3,harmonized_last_values,0.27794117647058825
+scope_corrected_strict,0.4,treat_all,0.11764705882352938
+scope_corrected_strict,0.4,treat_none,0.0
+scope_corrected_strict,0.4,harmonized_dynamic_vitals,0.15637254901960781
+scope_corrected_strict,0.4,harmonized_last_values,0.13284313725490196
+scope_corrected_strict,0.5,treat_all,-0.05882352941176472
+scope_corrected_strict,0.5,treat_none,0.0
+scope_corrected_strict,0.5,harmonized_dynamic_vitals,0.025
+scope_corrected_strict,0.5,harmonized_last_values,0.011764705882352941
