@@ -1,0 +1,27 @@
+{
+  "historical_candidates": 11940,
+  "deterministic_candidates": 11939,
+  "historical_primary": 9279,
+  "deterministic_primary": 9279,
+  "primary_membership_identical": false,
+  "primary_labels_identical": false,
+  "primary_partition_identical": false,
+  "removed_primary_records": 1,
+  "added_primary_records": 1,
+  "common_primary_label_changes": 0,
+  "common_primary_partition_changes": 0,
+  "removed_groups": [
+    {
+      "corrected_analysis_split": "development",
+      "corrected_outcome_code": 2.0,
+      "n": 1
+    }
+  ],
+  "added_groups": [
+    {
+      "corrected_analysis_split": "development",
+      "corrected_outcome_code": 2.0,
+      "n": 1
+    }
+  ]
+}

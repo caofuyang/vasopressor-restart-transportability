@@ -1,0 +1,13 @@
+artifact,field,original_records,new_records,only_original,only_new,changed_common_records,missing_mask_differences,max_absolute_difference
+vasopressor_liberation_attempts_stage2.parquet,membership,16317.0,16316.0,1.0,0.0,,,
+vasopressor_liberation_attempts_stage2.parquet,terminal_status,,,,,3.0,0.0,
+vasopressor_liberation_attempts_stage2.parquet,terminal_drug,,,,,231.0,0.0,
+vasopressor_liberation_attempts_stage2.parquet,candidate_number,,,,,7.0,0.0,1.0
+vasopressor_liberation_primary_cohort_stage3.parquet,membership,12016.0,12015.0,2.0,1.0,,,
+vasopressor_liberation_primary_cohort_stage3.parquet,terminal_drug,,,,,194.0,0.0,
+vasopressor_liberation_primary_cohort_stage3.parquet,candidate_number,,,,,1.0,0.0,1.0
+vasopressor_liberation_features_stage7.parquet,membership,12016.0,12015.0,2.0,1.0,,,
+vasopressor_liberation_features_stage7.parquet,terminal_drug,,,,,194.0,0.0,
+vasopressor_liberation_features_stage7.parquet,candidate_number,,,,,1.0,0.0,1.0
+vasopressor_liberation_features_stage7.parquet,map_slope_toward_stop_6h,,,,,1.0,0.0,1.0868461686186492e-10
+vasopressor_liberation_features_stage7.parquet,respiratory_rate_last,,,,,31.0,0.0,23.0

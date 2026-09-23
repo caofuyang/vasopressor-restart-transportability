@@ -1,0 +1,72 @@
+[
+  {
+    "file": "code\\mimic\\stage01.py",
+    "previous_sha256": "398d90f492859705c6893b58682e50c92bab6548e03308a11d13f3079968955f",
+    "new_sha256": "04e22b9c85d4db22c5824481f5233ca25e06c1151ab88a6feeb40707e8133d9a"
+  },
+  {
+    "file": "code\\mimic\\stage02.py",
+    "previous_sha256": "abc1fe457f59e281b66c3349e7f35366fa14ed2065dcb6b8aea555e6eccef832",
+    "new_sha256": "ff7135c2204af322e9017652c6e97fc823088cceea280674b64095ca014c2db8"
+  },
+  {
+    "file": "code\\mimic\\stage03.py",
+    "previous_sha256": "d9cc7366e06e77fa483ef4ceb2d140bd039f961d167751b274b8ee08f89e70fb",
+    "new_sha256": "317ac0e1d1f1a5d0b9ca80d6bcdc74b6865fe5898c5ac421365d71a621cd728b"
+  },
+  {
+    "file": "code\\mimic\\stage04.py",
+    "previous_sha256": "956381de795dc1a80c42a5cdf061223e735c8ff218cd90a03453c4c956f85795",
+    "new_sha256": "b0f727ded5d48dc319fb3e7bb0ee3bd91694a8345fbe1c7f876ee72cf2aa4145"
+  },
+  {
+    "file": "code\\mimic\\stage05.py",
+    "previous_sha256": "0f68516a2ac44e0911cda94f6b17c73f4d49836ab8dd92f6eaede0724a4a2bc4",
+    "new_sha256": "87e5597c266bb008699f2c13ac7f019ee5dd27a90beae0e3344e4836fce69a4c"
+  },
+  {
+    "file": "code\\mimic\\stage06.py",
+    "previous_sha256": "c7a781fdd245b57d0d9b1832a9268de1632ee2b26b537607ec12ef0089f72e86",
+    "new_sha256": "d83d1cb43f04173e2cc186d05dce616f6e4d6bafb5f0fa309bc31fca07dfef26"
+  },
+  {
+    "file": "code\\mimic\\stage07.py",
+    "previous_sha256": "ce76e7330ca6a50d8b400eff6b67e4de44ed119bb70430a0b43331700bbfb6a5",
+    "new_sha256": "9fe5a1ed6af1757b3d23d04b9e677d5bc5faf67eb56cb1215b147530f9508b76"
+  },
+  {
+    "file": "code\\mimic\\stage11.py",
+    "previous_sha256": "2a6092f515a72f6db96ab6efc0595cc9dd318b5459f9c9e54adb964bad77140f",
+    "new_sha256": "4e52366b5f996f055ab856bd4bff24e9b045fd42015bf591f2cb8e1927fb7c49"
+  },
+  {
+    "file": "code\\mimic\\stage12.py",
+    "previous_sha256": "0a496206ef6d76127d0009bce46989fbb467644ed5c6f13ed82d24740a79b3cf",
+    "new_sha256": "4a27a846c005c359bfe84b37d0775e6dec1c857a58661b1add846ddb3e380360"
+  },
+  {
+    "file": "code\\mimic\\stage13.py",
+    "previous_sha256": "b0e5127c5eef367a378a0dc5ccef958445dc65d060bdb5ecac108fd4b515b6ee",
+    "new_sha256": "5cb62aeebb16e03ca56f2b4a7181f1c18d8ebc884e0ece3fd3bc96f201d59ff1"
+  },
+  {
+    "file": "code\\mimic\\stage17.py",
+    "previous_sha256": "acf518880f80330918840f34c4d1db7617cc55cb2d69e1f84c4636a5a6320cec",
+    "new_sha256": "c6c11c1eb588ba567eea9ffe4179a9c17d74286674c9935213e4c09e2f91c481"
+  },
+  {
+    "file": "code\\mimic\\stage18.py",
+    "previous_sha256": "33bd4e0cb33c1bc70ce467a10e9916d6455da21e375ccf3debb1e3274267dc1c",
+    "new_sha256": "bab8feed74e8c17e5f47e45338deabd50357b543c21c9e7ac732fd404fbadf96"
+  },
+  {
+    "file": "code\\mimic\\stage19_post_audit.py",
+    "previous_sha256": "3b130c0bb7eb474de5a7b5bad8cc135e22d2a2ff67680964b5be994c7b32e5f1",
+    "new_sha256": "49d9ac50e88f913fc11302d46010d3253154eb074e8f44352df8eb7c1b23ee14"
+  },
+  {
+    "file": "code\\mimic\\stage20_scope_corrected.py",
+    "previous_sha256": "199489cfb7f81c2bcc1d0b2e793eaa283ff1b04f3187598f90f3ece5d8b69e97",
+    "new_sha256": "c6876797fe24b7a1d406d9a9910da0f85f593910f6bd1c362d70fdb3fc14fe5a"
+  }
+]

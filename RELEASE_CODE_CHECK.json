@@ -1,0 +1,8 @@
+{
+  "syntax_files": 41,
+  "cli_prediction_rows": 8810,
+  "source_csv_probability_max_error": 1.1102230246251565e-16,
+  "recalibrated_csv_probability_max_error": 5.551115123125783e-17,
+  "direct_patient_identifier_columns_or_private_binary_files": [],
+  "scope": "CLI export serialization and public-package privacy check; numerical raw reconstruction/retraining evidence is separate"
+}

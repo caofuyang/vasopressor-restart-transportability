@@ -1,0 +1,4 @@
+membership_change,tied_terminal_records,terminal_statuses,first_original_record_status,qualifies_as_explicit_stopped
+removed,3,FinishedRunning | Stopped,FinishedRunning,False
+removed,5,FinishedRunning | Stopped,FinishedRunning,False
+added,4,FinishedRunning | Stopped,Stopped,True

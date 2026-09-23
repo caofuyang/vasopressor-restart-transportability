@@ -1,0 +1,7 @@
+{
+  "stage17_temp_directory": "user-selected private output; no hard-coded drive",
+  "rows": 11939,
+  "columns": 51,
+  "comparison": "all fields exact after re-execution",
+  "other_changes": "removed unused ancestor-root variables; require supplied eICU raw and derived paths"
+}
