@@ -1,0 +1,35 @@
+{
+  "status": "post_audit_rule_frozen_before_corrected_performance",
+  "rules": {
+    "path": "C:\\Users\\caofu\\Documents\\Codex\\2026-08-28\\c-users-caofu-documents-codex-2026\\analysis\\vasopressor_transportability\\scientific_revision_20260908\\00_MIMIC_RESTART_SCOPE_CORRECTION_FROZEN.md",
+    "sha256": "8f5394306382ad49bcffba7478c495139568f83191d70702dde8104e00e4975f"
+  },
+  "audit_summary": {
+    "path": "C:\\Users\\caofu\\Documents\\Codex\\2026-08-28\\c-users-caofu-documents-codex-2026\\outputs\\vasopressor_transportability\\scientific_revision_20260908\\audit_v2\\restart_scope_audit_summary.json",
+    "sha256": "397e21191cc77005f0f8e35158fb0dc4f26d950592273c7f29a9a270b75241e2"
+  },
+  "inputs": [
+    {
+      "path": "E:\\MIMIC-IV\\derived\\vasopressor_liberation_competing_outcomes_stage13.parquet",
+      "sha256": "a0096f243b8e198934c9df24e19a788d287aba37b82008aa6e03a19d69214208"
+    },
+    {
+      "path": "E:\\MIMIC-IV\\derived\\stage17_cross_icu_restart_audit.parquet",
+      "sha256": "c5c766ef480e5df4049d53297aab1426b2979f442fbea7f30e263f8cdfd83941"
+    },
+    {
+      "path": "E:\\MIMIC-IV\\derived\\stage18_competing_outcomes_cross_icu_corrected.parquet",
+      "sha256": "e68478ea762a8639e6ed762089d4477b1698fabc758348f9fdb85b247de85c84"
+    },
+    {
+      "path": "C:\\Users\\caofu\\Documents\\Codex\\2026-08-28\\c-users-caofu-documents-codex-2026\\analysis\\vasopressor_transportability\\corrected_after_audit_v1\\results\\stage18_post_audit_corrected_cohort.parquet",
+      "sha256": "bbf6276b0b6321a982c598b63c78baa6585851ab21daf30443830a8ff4235d1e"
+    },
+    {
+      "path": "E:\\MIMIC-IV\\derived\\vasopressor_inputevents_nee_clean_stage6.parquet",
+      "sha256": "367371a2891712a9a5b7280029df4c3566df0df2f5790186fbad5cd25aa1403e"
+    }
+  ],
+  "performance_viewed_before_freeze": false,
+  "patient_level_data_exported": false
+}
