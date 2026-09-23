@@ -1,0 +1,12 @@
+included,status,records
+False,indeterminate_death_or_discharge_proxy_conflict,430
+False,indeterminate_missing_hospital_status,74
+False,indeterminate_observation,1437
+False,invalid_alive_discharge_before_origin,1
+False,invalid_death_proxy_before_origin,2
+False,invalid_death_proxy_equal_origin,9
+False,invalid_or_indeterminate_restart_source,3
+False,invalid_origin_outside_unit,75
+True,no_recorded_restart_or_death_proxy_under_observation,4118
+True,recorded_death_proxy_first,204
+True,recorded_restart_first,2457

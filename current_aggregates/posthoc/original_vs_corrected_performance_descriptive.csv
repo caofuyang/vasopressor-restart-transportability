@@ -1,0 +1,5 @@
+database,version,n,events,event_rate,auroc,auprc,brier,comparison_scope
+MIMIC-IV,historical original analysis (archived),906,323,0.3565121412803532,0.7421206633777462,0.573360364580387,0.1970238344010187,"Different analysis population, endpoint implementation, and fitted model"
+MIMIC-IV,final corrected analysis,689,320,0.4644412191582003,0.6950118563685637,0.6126702517635736,0.2228140915668496,"Different analysis population, endpoint implementation, and fitted model"
+eICU,historical original analysis (archived),2619,574,0.2191676212294769,0.5321767206494978,0.2324434312905522,0.6041413450203555,Different analysis population and eICU labels; source model also changed after MIMIC correction
+eICU,final corrected analysis,2104,734,0.3488593155893536,0.5045088406690665,0.3415080414040652,0.5196946009319205,Different analysis population and eICU labels; source model also changed after MIMIC correction

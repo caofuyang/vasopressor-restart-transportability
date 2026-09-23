@@ -1,0 +1,3 @@
+database,fixed_candidates,primary_analysis,excluded_or_indeterminate,original_no_recorded_event,original_restart_first,original_death_first,final_no_recorded_event,final_restart_first,final_death_first,final_tie,broad_analysis_category_changed
+MIMIC-IV,11939,9279,2660,6979,3485,1475,4336,3468,1475,0,2660
+eICU,8810,6779,2031,6491,1925,394,4118,2457,204,0,2695

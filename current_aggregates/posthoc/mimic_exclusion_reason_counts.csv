@@ -1,0 +1,9 @@
+corrected_status,records
+death_first,1475
+durable_liberation_alive_confirmed,4336
+indeterminate_incomplete_24h_observation,1769
+indeterminate_missing_death_time,4
+invalid_alive_discharge_before_origin,36
+invalid_death_at_origin,62
+invalid_death_before_origin,789
+restart_first,3468

@@ -1,0 +1,4 @@
+observed_outcome,corrected_status,original_restart_label,corrected_restart_label,records
+0,durable_liberation_alive_confirmed,0,0,231
+1,restart_first,1,1,320
+2,death_first,0,0,138

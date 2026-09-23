@@ -1,0 +1,5 @@
+database,group,n,n_nonmissing,median,q1,q3,minimum,maximum
+MIMIC-IV,included_primary,9279,9279,24.0,24.0,24.0,0.0,24.0
+MIMIC-IV,excluded_or_indeterminate,2660,2660,24.0,0.0,24.0,0.0,24.0
+eICU,included_primary,6779,6779,24.0,24.0,24.0,0.08333333333333333,24.0
+eICU,excluded_or_indeterminate,2031,1955,14.1,7.816666666666666,21.975,0.0,24.0
