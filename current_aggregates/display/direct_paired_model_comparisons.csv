@@ -1,0 +1,10 @@
+first_model,reference_model,metric,estimate,ci_low,ci_high,valid_replicates,failed_single_class_replicates
+target_native_full,source_only,auroc,0.12794108872491494,0.078408992862488,0.169243051077536,1000,0
+target_native_full,source_only,auprc,0.13106635844802517,0.07117540660377802,0.1825451257630686,1000,0
+target_native_full,source_only,brier_improvement,0.30412012910931396,0.23184606375966973,0.3542157095533564,1000,0
+target_native_full,target_native_last_values,auroc,0.020768113924302334,-0.019017578077951066,0.045693833356299354,1000,0
+target_native_full,target_native_last_values,auprc,0.008581588471444745,-0.027283386142303606,0.0347277469053163,1000,0
+target_native_full,target_native_last_values,brier_improvement,0.003767687016013127,-0.001962606235937743,0.00886068118753297,1000,0
+target_native_dynamic_vitals,target_native_last_values,auroc,0.01778376658246994,-0.029883607964642393,0.04465336384804416,1000,0
+target_native_dynamic_vitals,target_native_last_values,auprc,0.015009945050662776,-0.021898964990156294,0.038414875365202925,1000,0
+target_native_dynamic_vitals,target_native_last_values,brier_improvement,0.003420655584413207,-0.0022384294834217975,0.0076832582478342714,1000,0
