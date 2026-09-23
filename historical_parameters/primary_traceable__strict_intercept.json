@@ -1,0 +1,13 @@
+{
+  "kind": "recalibration",
+  "intercept": -3.570955473506496,
+  "slope": 1.0,
+  "clip": 1e-07,
+  "base_model": "strict",
+  "provenance": {
+    "original_file": "eicu_scope_source_update/restricted/primary_traceable_fitted_target_models.joblib",
+    "original_sha256": "ae28b265bc6ac1627758c1aa8464bdfcc0abad04f73f56a3f79e3e976623a176",
+    "original_model_key": "strict_intercept",
+    "source_specification": null
+  }
+}

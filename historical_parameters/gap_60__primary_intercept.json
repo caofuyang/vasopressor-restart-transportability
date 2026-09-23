@@ -1,0 +1,13 @@
+{
+  "kind": "recalibration",
+  "intercept": -4.3565156306089206,
+  "slope": 1.0,
+  "clip": 1e-07,
+  "base_model": "primary",
+  "provenance": {
+    "original_file": "eicu_scope_source_update/restricted/gap_60_fitted_target_models.joblib",
+    "original_sha256": "dce07913ae86fa875d427bf26a805a8afc1a1efcdc4cf41f59e8da89f947d52b",
+    "original_model_key": "primary_intercept",
+    "source_specification": null
+  }
+}

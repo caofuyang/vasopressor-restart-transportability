@@ -1,0 +1,33 @@
+{
+  "kind": "recalibration",
+  "intercept": -0.8935134712944095,
+  "slope": -0.0010338515810848308,
+  "clip": 1e-07,
+  "classes": [
+    0,
+    1
+  ],
+  "parameters": {
+    "C": 1000000.0,
+    "class_weight": null,
+    "dual": false,
+    "fit_intercept": true,
+    "intercept_scaling": 1,
+    "l1_ratio": 0.0,
+    "max_iter": 5000,
+    "n_jobs": null,
+    "penalty": "deprecated",
+    "random_state": null,
+    "solver": "lbfgs",
+    "tol": 0.0001,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "base_model": "strict",
+  "provenance": {
+    "original_file": "eicu_scope_source_update/restricted/gap_60_fitted_target_models.joblib",
+    "original_sha256": "dce07913ae86fa875d427bf26a805a8afc1a1efcdc4cf41f59e8da89f947d52b",
+    "original_model_key": "strict_logistic",
+    "source_specification": null
+  }
+}
