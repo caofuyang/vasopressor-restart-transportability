@@ -1,0 +1,195 @@
+﻿database,group,variable,level,value,numerator,denominator,missing_n,missing_pct,source_variable
+MIMIC-IV,included_primary,"Age, years","Median [Q1, Q3]","68.00 [58.00, 78.00]",,9279,0,0.0,age
+MIMIC-IV,included_primary,"Vasopressor episode duration, h","Median [Q1, Q3]","20.90 [11.75, 44.10]",,9279,0,0.0,duration_hours
+MIMIC-IV,included_primary,"Last MAP, mmHg","Median [Q1, Q3]","74.00 [66.00, 82.00]",,8890,389,4.192262097208751,map_last
+MIMIC-IV,included_primary,"Mean MAP, prior 1 h, mmHg","Median [Q1, Q3]","74.00 [67.00, 82.00]",,8515,764,8.233645867011532,map_mean_1h
+MIMIC-IV,included_primary,"Mean MAP, prior 6 h, mmHg","Median [Q1, Q3]","72.83 [67.43, 78.86]",,8890,389,4.192262097208751,map_mean_6h
+MIMIC-IV,included_primary,"Last heart rate, beats/min","Median [Q1, Q3]","86.00 [74.00, 100.00]",,9275,4,0.04310809354456299,heart_rate_last
+MIMIC-IV,included_primary,"Mean heart rate, prior 6 h, beats/min","Median [Q1, Q3]","84.83 [74.00, 97.50]",,9275,4,0.04310809354456299,heart_rate_mean_6h
+MIMIC-IV,included_primary,"Last respiratory rate, breaths/min","Median [Q1, Q3]","20.00 [16.00, 24.00]",,9263,16,0.17243237417825197,respiratory_rate_last
+MIMIC-IV,included_primary,"Last temperature, C","Median [Q1, Q3]","36.89 [36.56, 37.28]",,8122,1157,12.469016057764845,temperature_c_last
+MIMIC-IV,included_primary,Last NEE,"Median [Q1, Q3]","0.03 [0.02, 0.06]",,9279,0,0.0,nee_last_5min
+MIMIC-IV,included_primary,"Mean NEE, prior 6 h","Median [Q1, Q3]","0.05 [0.03, 0.10]",,9279,0,0.0,nee_mean_6h
+MIMIC-IV,included_primary,Modified shock index,"Median [Q1, Q3]","1.16 [0.98, 1.38]",,8890,389,4.192262097208751,modified_shock_index_last
+MIMIC-IV,included_primary,Distinct vasopressors in episode,"Median [Q1, Q3]","1.00 [1.00, 2.00]",,9279,0,0.0,distinct_drugs
+MIMIC-IV,included_primary,Active vasopressors at last grid point,"Median [Q1, Q3]","1.00 [1.00, 1.00]",,9279,0,0.0,active_agents_last_5min
+MIMIC-IV,included_primary,Sex,F,3864/9279 (41.6%),3864,9279,0,0.0,gender
+MIMIC-IV,included_primary,Sex,M,5415/9279 (58.4%),5415,9279,0,0.0,gender
+MIMIC-IV,included_primary,Race,AMERICAN INDIAN/ALASKA NATIVE,20/9279 (0.2%),20,9279,0,0.0,race
+MIMIC-IV,included_primary,Race,ASIAN,109/9279 (1.2%),109,9279,0,0.0,race
+MIMIC-IV,included_primary,Race,ASIAN - ASIAN INDIAN,24/9279 (0.3%),24,9279,0,0.0,race
+MIMIC-IV,included_primary,Race,ASIAN - CHINESE,89/9279 (1.0%),89,9279,0,0.0,race
+MIMIC-IV,included_primary,Race,ASIAN - KOREAN,12/9279 (0.1%),12,9279,0,0.0,race
+MIMIC-IV,included_primary,Race,ASIAN - SOUTH EAST ASIAN,42/9279 (0.5%),42,9279,0,0.0,race
+MIMIC-IV,included_primary,Race,BLACK/AFRICAN,28/9279 (0.3%),28,9279,0,0.0,race
+MIMIC-IV,included_primary,Race,BLACK/AFRICAN AMERICAN,684/9279 (7.4%),684,9279,0,0.0,race
+MIMIC-IV,included_primary,Race,BLACK/CAPE VERDEAN,42/9279 (0.5%),42,9279,0,0.0,race
+MIMIC-IV,included_primary,Race,BLACK/CARIBBEAN ISLAND,54/9279 (0.6%),54,9279,0,0.0,race
+MIMIC-IV,included_primary,Race,HISPANIC OR LATINO,47/9279 (0.5%),47,9279,0,0.0,race
+MIMIC-IV,included_primary,Race,HISPANIC/LATINO - CENTRAL AMERICAN,7/9279 (0.1%),7,9279,0,0.0,race
+MIMIC-IV,included_primary,Race,HISPANIC/LATINO - COLUMBIAN,9/9279 (0.1%),9,9279,0,0.0,race
+MIMIC-IV,included_primary,Race,HISPANIC/LATINO - CUBAN,14/9279 (0.2%),14,9279,0,0.0,race
+MIMIC-IV,included_primary,Race,HISPANIC/LATINO - DOMINICAN,72/9279 (0.8%),72,9279,0,0.0,race
+MIMIC-IV,included_primary,Race,HISPANIC/LATINO - GUATEMALAN,18/9279 (0.2%),18,9279,0,0.0,race
+MIMIC-IV,included_primary,Race,HISPANIC/LATINO - HONDURAN,4/9279 (0.0%),4,9279,0,0.0,race
+MIMIC-IV,included_primary,Race,HISPANIC/LATINO - MEXICAN,7/9279 (0.1%),7,9279,0,0.0,race
+MIMIC-IV,included_primary,Race,HISPANIC/LATINO - PUERTO RICAN,106/9279 (1.1%),106,9279,0,0.0,race
+MIMIC-IV,included_primary,Race,HISPANIC/LATINO - SALVADORAN,18/9279 (0.2%),18,9279,0,0.0,race
+MIMIC-IV,included_primary,Race,MULTIPLE RACE/ETHNICITY,4/9279 (0.0%),4,9279,0,0.0,race
+MIMIC-IV,included_primary,Race,NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER,18/9279 (0.2%),18,9279,0,0.0,race
+MIMIC-IV,included_primary,Race,OTHER,256/9279 (2.8%),256,9279,0,0.0,race
+MIMIC-IV,included_primary,Race,PATIENT DECLINED TO ANSWER,48/9279 (0.5%),48,9279,0,0.0,race
+MIMIC-IV,included_primary,Race,PORTUGUESE,35/9279 (0.4%),35,9279,0,0.0,race
+MIMIC-IV,included_primary,Race,SOUTH AMERICAN,6/9279 (0.1%),6,9279,0,0.0,race
+MIMIC-IV,included_primary,Race,UNABLE TO OBTAIN,127/9279 (1.4%),127,9279,0,0.0,race
+MIMIC-IV,included_primary,Race,UNKNOWN,1218/9279 (13.1%),1218,9279,0,0.0,race
+MIMIC-IV,included_primary,Race,WHITE,5863/9279 (63.2%),5863,9279,0,0.0,race
+MIMIC-IV,included_primary,Race,WHITE - BRAZILIAN,12/9279 (0.1%),12,9279,0,0.0,race
+MIMIC-IV,included_primary,Race,WHITE - EASTERN EUROPEAN,17/9279 (0.2%),17,9279,0,0.0,race
+MIMIC-IV,included_primary,Race,WHITE - OTHER EUROPEAN,170/9279 (1.8%),170,9279,0,0.0,race
+MIMIC-IV,included_primary,Race,WHITE - RUSSIAN,99/9279 (1.1%),99,9279,0,0.0,race
+MIMIC-IV,included_primary,Admission type,AMBULATORY OBSERVATION,1/9279 (0.0%),1,9279,0,0.0,admission_type
+MIMIC-IV,included_primary,Admission type,DIRECT EMER.,394/9279 (4.2%),394,9279,0,0.0,admission_type
+MIMIC-IV,included_primary,Admission type,DIRECT OBSERVATION,3/9279 (0.0%),3,9279,0,0.0,admission_type
+MIMIC-IV,included_primary,Admission type,ELECTIVE,358/9279 (3.9%),358,9279,0,0.0,admission_type
+MIMIC-IV,included_primary,Admission type,EU OBSERVATION,2/9279 (0.0%),2,9279,0,0.0,admission_type
+MIMIC-IV,included_primary,Admission type,EW EMER.,4333/9279 (46.7%),4333,9279,0,0.0,admission_type
+MIMIC-IV,included_primary,Admission type,OBSERVATION ADMIT,1207/9279 (13.0%),1207,9279,0,0.0,admission_type
+MIMIC-IV,included_primary,Admission type,SURGICAL SAME DAY ADMISSION,782/9279 (8.4%),782,9279,0,0.0,admission_type
+MIMIC-IV,included_primary,Admission type,URGENT,2199/9279 (23.7%),2199,9279,0,0.0,admission_type
+MIMIC-IV,included_primary,Terminal vasopressor,angiotensin_ii,3/9279 (0.0%),3,9279,0,0.0,terminal_drug
+MIMIC-IV,included_primary,Terminal vasopressor,dopamine,348/9279 (3.8%),348,9279,0,0.0,terminal_drug
+MIMIC-IV,included_primary,Terminal vasopressor,epinephrine,580/9279 (6.3%),580,9279,0,0.0,terminal_drug
+MIMIC-IV,included_primary,Terminal vasopressor,norepinephrine,4415/9279 (47.6%),4415,9279,0,0.0,terminal_drug
+MIMIC-IV,included_primary,Terminal vasopressor,phenylephrine,2932/9279 (31.6%),2932,9279,0,0.0,terminal_drug
+MIMIC-IV,included_primary,Terminal vasopressor,vasopressin,1001/9279 (10.8%),1001,9279,0,0.0,terminal_drug
+MIMIC-IV,included_primary,Competing outcome,death_first,1475/9279 (15.9%),1475,9279,0,0.0,corrected_status
+MIMIC-IV,included_primary,Competing outcome,durable_liberation_alive_confirmed,4336/9279 (46.7%),4336,9279,0,0.0,corrected_status
+MIMIC-IV,included_primary,Competing outcome,restart_first,3468/9279 (37.4%),3468,9279,0,0.0,corrected_status
+MIMIC-IV,excluded_or_indeterminate,"Age, years","Median [Q1, Q3]","67.00 [57.00, 76.00]",,2660,0,0.0,age
+MIMIC-IV,excluded_or_indeterminate,"Vasopressor episode duration, h","Median [Q1, Q3]","18.36 [10.75, 36.74]",,2660,0,0.0,duration_hours
+MIMIC-IV,excluded_or_indeterminate,"Last MAP, mmHg","Median [Q1, Q3]","70.00 [62.00, 78.00]",,2487,173,6.503759398496241,map_last
+MIMIC-IV,excluded_or_indeterminate,"Mean MAP, prior 1 h, mmHg","Median [Q1, Q3]","72.00 [65.50, 79.00]",,1911,749,28.157894736842103,map_mean_1h
+MIMIC-IV,excluded_or_indeterminate,"Mean MAP, prior 6 h, mmHg","Median [Q1, Q3]","70.36 [64.50, 76.00]",,2487,173,6.503759398496241,map_mean_6h
+MIMIC-IV,excluded_or_indeterminate,"Last heart rate, beats/min","Median [Q1, Q3]","82.00 [70.00, 95.00]",,2605,55,2.0676691729323307,heart_rate_last
+MIMIC-IV,excluded_or_indeterminate,"Mean heart rate, prior 6 h, beats/min","Median [Q1, Q3]","82.50 [73.00, 94.83]",,2605,55,2.0676691729323307,heart_rate_mean_6h
+MIMIC-IV,excluded_or_indeterminate,"Last respiratory rate, breaths/min","Median [Q1, Q3]","19.00 [16.00, 24.00]",,2594,66,2.481203007518797,respiratory_rate_last
+MIMIC-IV,excluded_or_indeterminate,"Last temperature, C","Median [Q1, Q3]","36.80 [36.50, 37.11]",,2070,590,22.18045112781955,temperature_c_last
+MIMIC-IV,excluded_or_indeterminate,Last NEE,"Median [Q1, Q3]","0.04 [0.02, 0.10]",,2660,0,0.0,nee_last_5min
+MIMIC-IV,excluded_or_indeterminate,"Mean NEE, prior 6 h","Median [Q1, Q3]","0.06 [0.03, 0.19]",,2660,0,0.0,nee_mean_6h
+MIMIC-IV,excluded_or_indeterminate,Modified shock index,"Median [Q1, Q3]","1.17 [0.99, 1.42]",,2486,174,6.541353383458646,modified_shock_index_last
+MIMIC-IV,excluded_or_indeterminate,Distinct vasopressors in episode,"Median [Q1, Q3]","1.00 [1.00, 2.00]",,2660,0,0.0,distinct_drugs
+MIMIC-IV,excluded_or_indeterminate,Active vasopressors at last grid point,"Median [Q1, Q3]","1.00 [1.00, 1.00]",,2660,0,0.0,active_agents_last_5min
+MIMIC-IV,excluded_or_indeterminate,Sex,F,988/2660 (37.1%),988,2660,0,0.0,gender
+MIMIC-IV,excluded_or_indeterminate,Sex,M,1672/2660 (62.9%),1672,2660,0,0.0,gender
+MIMIC-IV,excluded_or_indeterminate,Race,AMERICAN INDIAN/ALASKA NATIVE,3/2660 (0.1%),3,2660,0,0.0,race
+MIMIC-IV,excluded_or_indeterminate,Race,ASIAN,31/2660 (1.2%),31,2660,0,0.0,race
+MIMIC-IV,excluded_or_indeterminate,Race,ASIAN - ASIAN INDIAN,7/2660 (0.3%),7,2660,0,0.0,race
+MIMIC-IV,excluded_or_indeterminate,Race,ASIAN - CHINESE,28/2660 (1.1%),28,2660,0,0.0,race
+MIMIC-IV,excluded_or_indeterminate,Race,ASIAN - SOUTH EAST ASIAN,8/2660 (0.3%),8,2660,0,0.0,race
+MIMIC-IV,excluded_or_indeterminate,Race,BLACK/AFRICAN,8/2660 (0.3%),8,2660,0,0.0,race
+MIMIC-IV,excluded_or_indeterminate,Race,BLACK/AFRICAN AMERICAN,162/2660 (6.1%),162,2660,0,0.0,race
+MIMIC-IV,excluded_or_indeterminate,Race,BLACK/CAPE VERDEAN,15/2660 (0.6%),15,2660,0,0.0,race
+MIMIC-IV,excluded_or_indeterminate,Race,BLACK/CARIBBEAN ISLAND,10/2660 (0.4%),10,2660,0,0.0,race
+MIMIC-IV,excluded_or_indeterminate,Race,HISPANIC OR LATINO,14/2660 (0.5%),14,2660,0,0.0,race
+MIMIC-IV,excluded_or_indeterminate,Race,HISPANIC/LATINO - CENTRAL AMERICAN,5/2660 (0.2%),5,2660,0,0.0,race
+MIMIC-IV,excluded_or_indeterminate,Race,HISPANIC/LATINO - COLUMBIAN,5/2660 (0.2%),5,2660,0,0.0,race
+MIMIC-IV,excluded_or_indeterminate,Race,HISPANIC/LATINO - CUBAN,2/2660 (0.1%),2,2660,0,0.0,race
+MIMIC-IV,excluded_or_indeterminate,Race,HISPANIC/LATINO - DOMINICAN,15/2660 (0.6%),15,2660,0,0.0,race
+MIMIC-IV,excluded_or_indeterminate,Race,HISPANIC/LATINO - GUATEMALAN,8/2660 (0.3%),8,2660,0,0.0,race
+MIMIC-IV,excluded_or_indeterminate,Race,HISPANIC/LATINO - MEXICAN,2/2660 (0.1%),2,2660,0,0.0,race
+MIMIC-IV,excluded_or_indeterminate,Race,HISPANIC/LATINO - PUERTO RICAN,32/2660 (1.2%),32,2660,0,0.0,race
+MIMIC-IV,excluded_or_indeterminate,Race,HISPANIC/LATINO - SALVADORAN,1/2660 (0.0%),1,2660,0,0.0,race
+MIMIC-IV,excluded_or_indeterminate,Race,MULTIPLE RACE/ETHNICITY,4/2660 (0.2%),4,2660,0,0.0,race
+MIMIC-IV,excluded_or_indeterminate,Race,NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER,4/2660 (0.2%),4,2660,0,0.0,race
+MIMIC-IV,excluded_or_indeterminate,Race,OTHER,87/2660 (3.3%),87,2660,0,0.0,race
+MIMIC-IV,excluded_or_indeterminate,Race,PATIENT DECLINED TO ANSWER,22/2660 (0.8%),22,2660,0,0.0,race
+MIMIC-IV,excluded_or_indeterminate,Race,PORTUGUESE,7/2660 (0.3%),7,2660,0,0.0,race
+MIMIC-IV,excluded_or_indeterminate,Race,SOUTH AMERICAN,1/2660 (0.0%),1,2660,0,0.0,race
+MIMIC-IV,excluded_or_indeterminate,Race,UNABLE TO OBTAIN,35/2660 (1.3%),35,2660,0,0.0,race
+MIMIC-IV,excluded_or_indeterminate,Race,UNKNOWN,370/2660 (13.9%),370,2660,0,0.0,race
+MIMIC-IV,excluded_or_indeterminate,Race,WHITE,1667/2660 (62.7%),1667,2660,0,0.0,race
+MIMIC-IV,excluded_or_indeterminate,Race,WHITE - BRAZILIAN,5/2660 (0.2%),5,2660,0,0.0,race
+MIMIC-IV,excluded_or_indeterminate,Race,WHITE - EASTERN EUROPEAN,6/2660 (0.2%),6,2660,0,0.0,race
+MIMIC-IV,excluded_or_indeterminate,Race,WHITE - OTHER EUROPEAN,66/2660 (2.5%),66,2660,0,0.0,race
+MIMIC-IV,excluded_or_indeterminate,Race,WHITE - RUSSIAN,30/2660 (1.1%),30,2660,0,0.0,race
+MIMIC-IV,excluded_or_indeterminate,Admission type,AMBULATORY OBSERVATION,1/2660 (0.0%),1,2660,0,0.0,admission_type
+MIMIC-IV,excluded_or_indeterminate,Admission type,DIRECT EMER.,127/2660 (4.8%),127,2660,0,0.0,admission_type
+MIMIC-IV,excluded_or_indeterminate,Admission type,ELECTIVE,173/2660 (6.5%),173,2660,0,0.0,admission_type
+MIMIC-IV,excluded_or_indeterminate,Admission type,EU OBSERVATION,3/2660 (0.1%),3,2660,0,0.0,admission_type
+MIMIC-IV,excluded_or_indeterminate,Admission type,EW EMER.,1090/2660 (41.0%),1090,2660,0,0.0,admission_type
+MIMIC-IV,excluded_or_indeterminate,Admission type,OBSERVATION ADMIT,335/2660 (12.6%),335,2660,0,0.0,admission_type
+MIMIC-IV,excluded_or_indeterminate,Admission type,SURGICAL SAME DAY ADMISSION,358/2660 (13.5%),358,2660,0,0.0,admission_type
+MIMIC-IV,excluded_or_indeterminate,Admission type,URGENT,573/2660 (21.5%),573,2660,0,0.0,admission_type
+MIMIC-IV,excluded_or_indeterminate,Terminal vasopressor,angiotensin_ii,4/2660 (0.2%),4,2660,0,0.0,terminal_drug
+MIMIC-IV,excluded_or_indeterminate,Terminal vasopressor,dopamine,142/2660 (5.3%),142,2660,0,0.0,terminal_drug
+MIMIC-IV,excluded_or_indeterminate,Terminal vasopressor,epinephrine,184/2660 (6.9%),184,2660,0,0.0,terminal_drug
+MIMIC-IV,excluded_or_indeterminate,Terminal vasopressor,norepinephrine,825/2660 (31.0%),825,2660,0,0.0,terminal_drug
+MIMIC-IV,excluded_or_indeterminate,Terminal vasopressor,phenylephrine,1062/2660 (39.9%),1062,2660,0,0.0,terminal_drug
+MIMIC-IV,excluded_or_indeterminate,Terminal vasopressor,vasopressin,443/2660 (16.7%),443,2660,0,0.0,terminal_drug
+MIMIC-IV,excluded_or_indeterminate,Competing outcome,indeterminate_incomplete_24h_observation,1769/2660 (66.5%),1769,2660,0,0.0,corrected_status
+MIMIC-IV,excluded_or_indeterminate,Competing outcome,indeterminate_missing_death_time,4/2660 (0.2%),4,2660,0,0.0,corrected_status
+MIMIC-IV,excluded_or_indeterminate,Competing outcome,invalid_alive_discharge_before_origin,36/2660 (1.4%),36,2660,0,0.0,corrected_status
+MIMIC-IV,excluded_or_indeterminate,Competing outcome,invalid_death_at_origin,62/2660 (2.3%),62,2660,0,0.0,corrected_status
+MIMIC-IV,excluded_or_indeterminate,Competing outcome,invalid_death_before_origin,789/2660 (29.7%),789,2660,0,0.0,corrected_status
+eICU,included_primary,"Age, years","Median [Q1, Q3]","67.00 [57.00, 77.00]",,6779,0,0.0,age
+eICU,included_primary,"Vasopressor episode duration, h","Median [Q1, Q3]","24.00 [13.00, 48.00]",,6779,0,0.0,duration_hours
+eICU,included_primary,"Last MAP, mmHg","Median [Q1, Q3]","74.00 [67.00, 84.00]",,6753,26,0.38353739489600236,map_last
+eICU,included_primary,"Mean MAP, prior 1 h, mmHg","Median [Q1, Q3]","75.00 [68.31, 82.75]",,6668,111,1.6374096474406254,map_mean_1h
+eICU,included_primary,"Mean MAP, prior 6 h, mmHg","Median [Q1, Q3]","74.53 [69.17, 81.20]",,6753,26,0.38353739489600236,map_mean_6h
+eICU,included_primary,"Last heart rate, beats/min","Median [Q1, Q3]","87.00 [75.00, 100.00]",,6755,24,0.3540345183655406,heart_rate_last
+eICU,included_primary,"Mean heart rate, prior 6 h, beats/min","Median [Q1, Q3]","85.79 [74.46, 97.86]",,6755,24,0.3540345183655406,heart_rate_mean_6h
+eICU,included_primary,"Last respiratory rate, breaths/min","Median [Q1, Q3]","20.00 [16.00, 24.00]",,6301,478,7.051187490780351,respiratory_rate_last
+eICU,included_primary,"Last temperature, C","Median [Q1, Q3]","37.10 [36.70, 37.60]",,873,5906,87.12199439445347,temperature_c_last
+eICU,included_primary,Last NEE,"Median [Q1, Q3]","0.03 [0.02, 0.06]",,2906,3873,57.13232040123912,nee_last_5min
+eICU,included_primary,"Mean NEE, prior 6 h","Median [Q1, Q3]","0.04 [0.03, 0.08]",,2906,3873,57.13232040123912,nee_mean_6h
+eICU,included_primary,Modified shock index,"Median [Q1, Q3]","1.16 [0.97, 1.38]",,6752,27,0.39828883316123326,modified_shock_index_last
+eICU,included_primary,Distinct vasopressors in episode,"Median [Q1, Q3]","1.00 [1.00, 1.00]",,6779,0,0.0,distinct_drugs
+eICU,included_primary,Active vasopressors at last grid point,"Median [Q1, Q3]","1.00 [1.00, 1.00]",,2906,3873,57.13232040123912,active_agents_last_5min
+eICU,included_primary,Sex,Female,3030/6779 (44.7%),3030,6779,0,0.0,gender
+eICU,included_primary,Sex,Male,3749/6779 (55.3%),3749,6779,0,0.0,gender
+eICU,included_primary,Race,Not available,Not available,,6779,6779,100.0,not available
+eICU,included_primary,Admission type,EW EMER.,3219/6779 (47.5%),3219,6779,0,0.0,admission_type
+eICU,included_primary,Admission type,SURGICAL SAME DAY ADMISSION,1200/6779 (17.7%),1200,6779,0,0.0,admission_type
+eICU,included_primary,Admission type,URGENT,2360/6779 (34.8%),2360,6779,0,0.0,admission_type
+eICU,included_primary,Terminal vasopressor,dopamine,496/6779 (7.3%),496,6779,0,0.0,terminal_drug
+eICU,included_primary,Terminal vasopressor,epinephrine,235/6779 (3.5%),235,6779,0,0.0,terminal_drug
+eICU,included_primary,Terminal vasopressor,norepinephrine,4872/6779 (71.9%),4872,6779,0,0.0,terminal_drug
+eICU,included_primary,Terminal vasopressor,phenylephrine,780/6779 (11.5%),780,6779,0,0.0,terminal_drug
+eICU,included_primary,Terminal vasopressor,vasopressin,396/6779 (5.8%),396,6779,0,0.0,terminal_drug
+eICU,included_primary,Competing outcome,no_recorded_restart_or_death_proxy_under_observation,4118/6779 (60.7%),4118,6779,0,0.0,status
+eICU,included_primary,Competing outcome,recorded_death_proxy_first,204/6779 (3.0%),204,6779,0,0.0,status
+eICU,included_primary,Competing outcome,recorded_restart_first,2457/6779 (36.2%),2457,6779,0,0.0,status
+eICU,excluded_or_indeterminate,"Age, years","Median [Q1, Q3]","68.00 [58.00, 78.00]",,2031,0,0.0,age
+eICU,excluded_or_indeterminate,"Vasopressor episode duration, h","Median [Q1, Q3]","22.50 [12.47, 42.14]",,2031,0,0.0,duration_hours
+eICU,excluded_or_indeterminate,"Last MAP, mmHg","Median [Q1, Q3]","73.00 [66.00, 82.00]",,1985,46,2.2648941408173315,map_last
+eICU,excluded_or_indeterminate,"Mean MAP, prior 1 h, mmHg","Median [Q1, Q3]","73.67 [67.00, 81.79]",,1921,110,5.416051206302314,map_mean_1h
+eICU,excluded_or_indeterminate,"Mean MAP, prior 6 h, mmHg","Median [Q1, Q3]","73.42 [68.08, 80.43]",,1985,46,2.2648941408173315,map_mean_6h
+eICU,excluded_or_indeterminate,"Last heart rate, beats/min","Median [Q1, Q3]","84.00 [73.00, 97.00]",,1985,46,2.2648941408173315,heart_rate_last
+eICU,excluded_or_indeterminate,"Mean heart rate, prior 6 h, beats/min","Median [Q1, Q3]","83.93 [73.11, 95.64]",,1985,46,2.2648941408173315,heart_rate_mean_6h
+eICU,excluded_or_indeterminate,"Last respiratory rate, breaths/min","Median [Q1, Q3]","19.00 [16.00, 23.00]",,1874,157,7.730182176267848,respiratory_rate_last
+eICU,excluded_or_indeterminate,"Last temperature, C","Median [Q1, Q3]","37.10 [36.50, 37.60]",,249,1782,87.74002954209749,temperature_c_last
+eICU,excluded_or_indeterminate,Last NEE,"Median [Q1, Q3]","0.03 [0.02, 0.07]",,964,1067,52.53569670113245,nee_last_5min
+eICU,excluded_or_indeterminate,"Mean NEE, prior 6 h","Median [Q1, Q3]","0.04 [0.03, 0.09]",,964,1067,52.53569670113245,nee_mean_6h
+eICU,excluded_or_indeterminate,Modified shock index,"Median [Q1, Q3]","1.15 [0.96, 1.35]",,1985,46,2.2648941408173315,modified_shock_index_last
+eICU,excluded_or_indeterminate,Distinct vasopressors in episode,"Median [Q1, Q3]","1.00 [1.00, 1.00]",,2031,0,0.0,distinct_drugs
+eICU,excluded_or_indeterminate,Active vasopressors at last grid point,"Median [Q1, Q3]","1.00 [1.00, 1.00]",,964,1067,52.53569670113245,active_agents_last_5min
+eICU,excluded_or_indeterminate,Sex,Female,855/2031 (42.1%),855,2031,0,0.0,gender
+eICU,excluded_or_indeterminate,Sex,Male,1176/2031 (57.9%),1176,2031,0,0.0,gender
+eICU,excluded_or_indeterminate,Race,Not available,Not available,,2031,2031,100.0,not available
+eICU,excluded_or_indeterminate,Admission type,EW EMER.,973/2031 (47.9%),973,2031,0,0.0,admission_type
+eICU,excluded_or_indeterminate,Admission type,SURGICAL SAME DAY ADMISSION,391/2031 (19.3%),391,2031,0,0.0,admission_type
+eICU,excluded_or_indeterminate,Admission type,URGENT,667/2031 (32.8%),667,2031,0,0.0,admission_type
+eICU,excluded_or_indeterminate,Terminal vasopressor,dopamine,224/2031 (11.0%),224,2031,0,0.0,terminal_drug
+eICU,excluded_or_indeterminate,Terminal vasopressor,epinephrine,39/2031 (1.9%),39,2031,0,0.0,terminal_drug
+eICU,excluded_or_indeterminate,Terminal vasopressor,norepinephrine,1352/2031 (66.6%),1352,2031,0,0.0,terminal_drug
+eICU,excluded_or_indeterminate,Terminal vasopressor,phenylephrine,346/2031 (17.0%),346,2031,0,0.0,terminal_drug
+eICU,excluded_or_indeterminate,Terminal vasopressor,vasopressin,70/2031 (3.4%),70,2031,0,0.0,terminal_drug
+eICU,excluded_or_indeterminate,Competing outcome,indeterminate_death_or_discharge_proxy_conflict,430/2031 (21.2%),430,2031,0,0.0,status
+eICU,excluded_or_indeterminate,Competing outcome,indeterminate_missing_hospital_status,74/2031 (3.6%),74,2031,0,0.0,status
+eICU,excluded_or_indeterminate,Competing outcome,indeterminate_observation,1437/2031 (70.8%),1437,2031,0,0.0,status
+eICU,excluded_or_indeterminate,Competing outcome,invalid_alive_discharge_before_origin,1/2031 (0.0%),1,2031,0,0.0,status
+eICU,excluded_or_indeterminate,Competing outcome,invalid_death_proxy_before_origin,2/2031 (0.1%),2,2031,0,0.0,status
+eICU,excluded_or_indeterminate,Competing outcome,invalid_death_proxy_equal_origin,9/2031 (0.4%),9,2031,0,0.0,status
+eICU,excluded_or_indeterminate,Competing outcome,invalid_or_indeterminate_restart_source,3/2031 (0.1%),3,2031,0,0.0,status
+eICU,excluded_or_indeterminate,Competing outcome,invalid_origin_outside_unit,75/2031 (3.7%),75,2031,0,0.0,status

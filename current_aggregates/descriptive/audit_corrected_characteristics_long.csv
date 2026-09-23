@@ -1,0 +1,206 @@
+﻿database,group,variable,level,value,numerator,denominator,missing_n,missing_pct,source_variable
+MIMIC-IV,MIMIC-IV development,"Age, years","Median [Q1, Q3]","69.00 [58.00, 78.00]",,8590,0,0.0,age
+MIMIC-IV,MIMIC-IV development,"Vasopressor episode duration, h","Median [Q1, Q3]","20.66 [11.72, 43.58]",,8590,0,0.0,duration_hours
+MIMIC-IV,MIMIC-IV development,"Last MAP, mmHg","Median [Q1, Q3]","74.00 [66.00, 82.00]",,8242,348,4.051222351571595,map_last
+MIMIC-IV,MIMIC-IV development,"Mean MAP, prior 1 h, mmHg","Median [Q1, Q3]","74.00 [67.00, 82.00]",,7895,695,8.090803259604192,map_mean_1h
+MIMIC-IV,MIMIC-IV development,"Mean MAP, prior 6 h, mmHg","Median [Q1, Q3]","72.67 [67.20, 78.67]",,8242,348,4.051222351571595,map_mean_6h
+MIMIC-IV,MIMIC-IV development,"Last heart rate, beats/min","Median [Q1, Q3]","86.00 [74.00, 100.00]",,8586,4,0.046565774155995346,heart_rate_last
+MIMIC-IV,MIMIC-IV development,"Mean heart rate, prior 6 h, beats/min","Median [Q1, Q3]","84.85 [74.17, 97.50]",,8586,4,0.046565774155995346,heart_rate_mean_6h
+MIMIC-IV,MIMIC-IV development,"Last respiratory rate, breaths/min","Median [Q1, Q3]","20.00 [16.00, 24.00]",,8575,15,0.17462165308498254,respiratory_rate_last
+MIMIC-IV,MIMIC-IV development,"Last temperature, C","Median [Q1, Q3]","36.89 [36.56, 37.28]",,7492,1098,12.78230500582072,temperature_c_last
+MIMIC-IV,MIMIC-IV development,Last NEE,"Median [Q1, Q3]","0.03 [0.02, 0.06]",,8590,0,0.0,nee_last_5min
+MIMIC-IV,MIMIC-IV development,"Mean NEE, prior 6 h","Median [Q1, Q3]","0.05 [0.03, 0.10]",,8590,0,0.0,nee_mean_6h
+MIMIC-IV,MIMIC-IV development,Modified shock index,"Median [Q1, Q3]","1.17 [0.98, 1.39]",,8242,348,4.051222351571595,modified_shock_index_last
+MIMIC-IV,MIMIC-IV development,Distinct vasopressors in episode,"Median [Q1, Q3]","1.00 [1.00, 2.00]",,8590,0,0.0,distinct_drugs
+MIMIC-IV,MIMIC-IV development,Active vasopressors at last grid point,"Median [Q1, Q3]","1.00 [1.00, 1.00]",,8590,0,0.0,active_agents_last_5min
+MIMIC-IV,MIMIC-IV development,Sex,F,3615/8590 (42.1%),3615,8590,0,0.0,gender
+MIMIC-IV,MIMIC-IV development,Sex,M,4975/8590 (57.9%),4975,8590,0,0.0,gender
+MIMIC-IV,MIMIC-IV development,Race,AMERICAN INDIAN/ALASKA NATIVE,18/8590 (0.2%),18,8590,0,0.0,race
+MIMIC-IV,MIMIC-IV development,Race,ASIAN,103/8590 (1.2%),103,8590,0,0.0,race
+MIMIC-IV,MIMIC-IV development,Race,ASIAN - ASIAN INDIAN,22/8590 (0.3%),22,8590,0,0.0,race
+MIMIC-IV,MIMIC-IV development,Race,ASIAN - CHINESE,81/8590 (0.9%),81,8590,0,0.0,race
+MIMIC-IV,MIMIC-IV development,Race,ASIAN - KOREAN,12/8590 (0.1%),12,8590,0,0.0,race
+MIMIC-IV,MIMIC-IV development,Race,ASIAN - SOUTH EAST ASIAN,40/8590 (0.5%),40,8590,0,0.0,race
+MIMIC-IV,MIMIC-IV development,Race,BLACK/AFRICAN,27/8590 (0.3%),27,8590,0,0.0,race
+MIMIC-IV,MIMIC-IV development,Race,BLACK/AFRICAN AMERICAN,650/8590 (7.6%),650,8590,0,0.0,race
+MIMIC-IV,MIMIC-IV development,Race,BLACK/CAPE VERDEAN,40/8590 (0.5%),40,8590,0,0.0,race
+MIMIC-IV,MIMIC-IV development,Race,BLACK/CARIBBEAN ISLAND,47/8590 (0.5%),47,8590,0,0.0,race
+MIMIC-IV,MIMIC-IV development,Race,HISPANIC OR LATINO,47/8590 (0.5%),47,8590,0,0.0,race
+MIMIC-IV,MIMIC-IV development,Race,HISPANIC/LATINO - CENTRAL AMERICAN,6/8590 (0.1%),6,8590,0,0.0,race
+MIMIC-IV,MIMIC-IV development,Race,HISPANIC/LATINO - COLUMBIAN,9/8590 (0.1%),9,8590,0,0.0,race
+MIMIC-IV,MIMIC-IV development,Race,HISPANIC/LATINO - CUBAN,12/8590 (0.1%),12,8590,0,0.0,race
+MIMIC-IV,MIMIC-IV development,Race,HISPANIC/LATINO - DOMINICAN,59/8590 (0.7%),59,8590,0,0.0,race
+MIMIC-IV,MIMIC-IV development,Race,HISPANIC/LATINO - GUATEMALAN,18/8590 (0.2%),18,8590,0,0.0,race
+MIMIC-IV,MIMIC-IV development,Race,HISPANIC/LATINO - HONDURAN,2/8590 (0.0%),2,8590,0,0.0,race
+MIMIC-IV,MIMIC-IV development,Race,HISPANIC/LATINO - MEXICAN,7/8590 (0.1%),7,8590,0,0.0,race
+MIMIC-IV,MIMIC-IV development,Race,HISPANIC/LATINO - PUERTO RICAN,97/8590 (1.1%),97,8590,0,0.0,race
+MIMIC-IV,MIMIC-IV development,Race,HISPANIC/LATINO - SALVADORAN,14/8590 (0.2%),14,8590,0,0.0,race
+MIMIC-IV,MIMIC-IV development,Race,MULTIPLE RACE/ETHNICITY,4/8590 (0.0%),4,8590,0,0.0,race
+MIMIC-IV,MIMIC-IV development,Race,NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER,16/8590 (0.2%),16,8590,0,0.0,race
+MIMIC-IV,MIMIC-IV development,Race,OTHER,233/8590 (2.7%),233,8590,0,0.0,race
+MIMIC-IV,MIMIC-IV development,Race,PATIENT DECLINED TO ANSWER,42/8590 (0.5%),42,8590,0,0.0,race
+MIMIC-IV,MIMIC-IV development,Race,PORTUGUESE,35/8590 (0.4%),35,8590,0,0.0,race
+MIMIC-IV,MIMIC-IV development,Race,SOUTH AMERICAN,6/8590 (0.1%),6,8590,0,0.0,race
+MIMIC-IV,MIMIC-IV development,Race,UNABLE TO OBTAIN,127/8590 (1.5%),127,8590,0,0.0,race
+MIMIC-IV,MIMIC-IV development,Race,UNKNOWN,1001/8590 (11.7%),1001,8590,0,0.0,race
+MIMIC-IV,MIMIC-IV development,Race,WHITE,5532/8590 (64.4%),5532,8590,0,0.0,race
+MIMIC-IV,MIMIC-IV development,Race,WHITE - BRAZILIAN,12/8590 (0.1%),12,8590,0,0.0,race
+MIMIC-IV,MIMIC-IV development,Race,WHITE - EASTERN EUROPEAN,15/8590 (0.2%),15,8590,0,0.0,race
+MIMIC-IV,MIMIC-IV development,Race,WHITE - OTHER EUROPEAN,161/8590 (1.9%),161,8590,0,0.0,race
+MIMIC-IV,MIMIC-IV development,Race,WHITE - RUSSIAN,95/8590 (1.1%),95,8590,0,0.0,race
+MIMIC-IV,MIMIC-IV development,Admission type,AMBULATORY OBSERVATION,1/8590 (0.0%),1,8590,0,0.0,admission_type
+MIMIC-IV,MIMIC-IV development,Admission type,DIRECT EMER.,368/8590 (4.3%),368,8590,0,0.0,admission_type
+MIMIC-IV,MIMIC-IV development,Admission type,DIRECT OBSERVATION,2/8590 (0.0%),2,8590,0,0.0,admission_type
+MIMIC-IV,MIMIC-IV development,Admission type,ELECTIVE,339/8590 (3.9%),339,8590,0,0.0,admission_type
+MIMIC-IV,MIMIC-IV development,Admission type,EU OBSERVATION,2/8590 (0.0%),2,8590,0,0.0,admission_type
+MIMIC-IV,MIMIC-IV development,Admission type,EW EMER.,4094/8590 (47.7%),4094,8590,0,0.0,admission_type
+MIMIC-IV,MIMIC-IV development,Admission type,OBSERVATION ADMIT,1054/8590 (12.3%),1054,8590,0,0.0,admission_type
+MIMIC-IV,MIMIC-IV development,Admission type,SURGICAL SAME DAY ADMISSION,747/8590 (8.7%),747,8590,0,0.0,admission_type
+MIMIC-IV,MIMIC-IV development,Admission type,URGENT,1983/8590 (23.1%),1983,8590,0,0.0,admission_type
+MIMIC-IV,MIMIC-IV development,Terminal vasopressor,angiotensin_ii,3/8590 (0.0%),3,8590,0,0.0,terminal_drug
+MIMIC-IV,MIMIC-IV development,Terminal vasopressor,dopamine,345/8590 (4.0%),345,8590,0,0.0,terminal_drug
+MIMIC-IV,MIMIC-IV development,Terminal vasopressor,epinephrine,542/8590 (6.3%),542,8590,0,0.0,terminal_drug
+MIMIC-IV,MIMIC-IV development,Terminal vasopressor,norepinephrine,4004/8590 (46.6%),4004,8590,0,0.0,terminal_drug
+MIMIC-IV,MIMIC-IV development,Terminal vasopressor,phenylephrine,2775/8590 (32.3%),2775,8590,0,0.0,terminal_drug
+MIMIC-IV,MIMIC-IV development,Terminal vasopressor,vasopressin,921/8590 (10.7%),921,8590,0,0.0,terminal_drug
+MIMIC-IV,MIMIC-IV development,Competing outcome,death_first,1337/8590 (15.6%),1337,8590,0,0.0,corrected_status
+MIMIC-IV,MIMIC-IV development,Competing outcome,durable_liberation_alive_confirmed,4105/8590 (47.8%),4105,8590,0,0.0,corrected_status
+MIMIC-IV,MIMIC-IV development,Competing outcome,restart_first,3148/8590 (36.6%),3148,8590,0,0.0,corrected_status
+MIMIC-IV,MIMIC-IV temporal validation,"Age, years","Median [Q1, Q3]","67.00 [55.00, 77.00]",,689,0,0.0,age
+MIMIC-IV,MIMIC-IV temporal validation,"Vasopressor episode duration, h","Median [Q1, Q3]","24.32 [12.12, 54.88]",,689,0,0.0,duration_hours
+MIMIC-IV,MIMIC-IV temporal validation,"Last MAP, mmHg","Median [Q1, Q3]","76.00 [69.00, 85.00]",,648,41,5.950653120464441,map_last
+MIMIC-IV,MIMIC-IV temporal validation,"Mean MAP, prior 1 h, mmHg","Median [Q1, Q3]","76.50 [70.00, 84.50]",,620,69,10.014513788098693,map_mean_1h
+MIMIC-IV,MIMIC-IV temporal validation,"Mean MAP, prior 6 h, mmHg","Median [Q1, Q3]","75.33 [70.27, 81.00]",,648,41,5.950653120464441,map_mean_6h
+MIMIC-IV,MIMIC-IV temporal validation,"Last heart rate, beats/min","Median [Q1, Q3]","86.00 [73.00, 100.00]",,689,0,0.0,heart_rate_last
+MIMIC-IV,MIMIC-IV temporal validation,"Mean heart rate, prior 6 h, beats/min","Median [Q1, Q3]","84.33 [72.67, 97.50]",,689,0,0.0,heart_rate_mean_6h
+MIMIC-IV,MIMIC-IV temporal validation,"Last respiratory rate, breaths/min","Median [Q1, Q3]","21.00 [17.00, 26.00]",,688,1,0.14513788098693758,respiratory_rate_last
+MIMIC-IV,MIMIC-IV temporal validation,"Last temperature, C","Median [Q1, Q3]","36.94 [36.61, 37.33]",,630,59,8.563134978229318,temperature_c_last
+MIMIC-IV,MIMIC-IV temporal validation,Last NEE,"Median [Q1, Q3]","0.03 [0.02, 0.08]",,689,0,0.0,nee_last_5min
+MIMIC-IV,MIMIC-IV temporal validation,"Mean NEE, prior 6 h","Median [Q1, Q3]","0.05 [0.03, 0.11]",,689,0,0.0,nee_mean_6h
+MIMIC-IV,MIMIC-IV temporal validation,Modified shock index,"Median [Q1, Q3]","1.12 [0.92, 1.34]",,648,41,5.950653120464441,modified_shock_index_last
+MIMIC-IV,MIMIC-IV temporal validation,Distinct vasopressors in episode,"Median [Q1, Q3]","1.00 [1.00, 2.00]",,689,0,0.0,distinct_drugs
+MIMIC-IV,MIMIC-IV temporal validation,Active vasopressors at last grid point,"Median [Q1, Q3]","1.00 [1.00, 1.00]",,689,0,0.0,active_agents_last_5min
+MIMIC-IV,MIMIC-IV temporal validation,Sex,F,249/689 (36.1%),249,689,0,0.0,gender
+MIMIC-IV,MIMIC-IV temporal validation,Sex,M,440/689 (63.9%),440,689,0,0.0,gender
+MIMIC-IV,MIMIC-IV temporal validation,Race,AMERICAN INDIAN/ALASKA NATIVE,2/689 (0.3%),2,689,0,0.0,race
+MIMIC-IV,MIMIC-IV temporal validation,Race,ASIAN,6/689 (0.9%),6,689,0,0.0,race
+MIMIC-IV,MIMIC-IV temporal validation,Race,ASIAN - ASIAN INDIAN,2/689 (0.3%),2,689,0,0.0,race
+MIMIC-IV,MIMIC-IV temporal validation,Race,ASIAN - CHINESE,8/689 (1.2%),8,689,0,0.0,race
+MIMIC-IV,MIMIC-IV temporal validation,Race,ASIAN - SOUTH EAST ASIAN,2/689 (0.3%),2,689,0,0.0,race
+MIMIC-IV,MIMIC-IV temporal validation,Race,BLACK/AFRICAN,1/689 (0.1%),1,689,0,0.0,race
+MIMIC-IV,MIMIC-IV temporal validation,Race,BLACK/AFRICAN AMERICAN,34/689 (4.9%),34,689,0,0.0,race
+MIMIC-IV,MIMIC-IV temporal validation,Race,BLACK/CAPE VERDEAN,2/689 (0.3%),2,689,0,0.0,race
+MIMIC-IV,MIMIC-IV temporal validation,Race,BLACK/CARIBBEAN ISLAND,7/689 (1.0%),7,689,0,0.0,race
+MIMIC-IV,MIMIC-IV temporal validation,Race,HISPANIC/LATINO - CENTRAL AMERICAN,1/689 (0.1%),1,689,0,0.0,race
+MIMIC-IV,MIMIC-IV temporal validation,Race,HISPANIC/LATINO - CUBAN,2/689 (0.3%),2,689,0,0.0,race
+MIMIC-IV,MIMIC-IV temporal validation,Race,HISPANIC/LATINO - DOMINICAN,13/689 (1.9%),13,689,0,0.0,race
+MIMIC-IV,MIMIC-IV temporal validation,Race,HISPANIC/LATINO - HONDURAN,2/689 (0.3%),2,689,0,0.0,race
+MIMIC-IV,MIMIC-IV temporal validation,Race,HISPANIC/LATINO - PUERTO RICAN,9/689 (1.3%),9,689,0,0.0,race
+MIMIC-IV,MIMIC-IV temporal validation,Race,HISPANIC/LATINO - SALVADORAN,4/689 (0.6%),4,689,0,0.0,race
+MIMIC-IV,MIMIC-IV temporal validation,Race,NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER,2/689 (0.3%),2,689,0,0.0,race
+MIMIC-IV,MIMIC-IV temporal validation,Race,OTHER,23/689 (3.3%),23,689,0,0.0,race
+MIMIC-IV,MIMIC-IV temporal validation,Race,PATIENT DECLINED TO ANSWER,6/689 (0.9%),6,689,0,0.0,race
+MIMIC-IV,MIMIC-IV temporal validation,Race,UNKNOWN,217/689 (31.5%),217,689,0,0.0,race
+MIMIC-IV,MIMIC-IV temporal validation,Race,WHITE,331/689 (48.0%),331,689,0,0.0,race
+MIMIC-IV,MIMIC-IV temporal validation,Race,WHITE - EASTERN EUROPEAN,2/689 (0.3%),2,689,0,0.0,race
+MIMIC-IV,MIMIC-IV temporal validation,Race,WHITE - OTHER EUROPEAN,9/689 (1.3%),9,689,0,0.0,race
+MIMIC-IV,MIMIC-IV temporal validation,Race,WHITE - RUSSIAN,4/689 (0.6%),4,689,0,0.0,race
+MIMIC-IV,MIMIC-IV temporal validation,Admission type,DIRECT EMER.,26/689 (3.8%),26,689,0,0.0,admission_type
+MIMIC-IV,MIMIC-IV temporal validation,Admission type,DIRECT OBSERVATION,1/689 (0.1%),1,689,0,0.0,admission_type
+MIMIC-IV,MIMIC-IV temporal validation,Admission type,ELECTIVE,19/689 (2.8%),19,689,0,0.0,admission_type
+MIMIC-IV,MIMIC-IV temporal validation,Admission type,EW EMER.,239/689 (34.7%),239,689,0,0.0,admission_type
+MIMIC-IV,MIMIC-IV temporal validation,Admission type,OBSERVATION ADMIT,153/689 (22.2%),153,689,0,0.0,admission_type
+MIMIC-IV,MIMIC-IV temporal validation,Admission type,SURGICAL SAME DAY ADMISSION,35/689 (5.1%),35,689,0,0.0,admission_type
+MIMIC-IV,MIMIC-IV temporal validation,Admission type,URGENT,216/689 (31.3%),216,689,0,0.0,admission_type
+MIMIC-IV,MIMIC-IV temporal validation,Terminal vasopressor,dopamine,3/689 (0.4%),3,689,0,0.0,terminal_drug
+MIMIC-IV,MIMIC-IV temporal validation,Terminal vasopressor,epinephrine,38/689 (5.5%),38,689,0,0.0,terminal_drug
+MIMIC-IV,MIMIC-IV temporal validation,Terminal vasopressor,norepinephrine,411/689 (59.7%),411,689,0,0.0,terminal_drug
+MIMIC-IV,MIMIC-IV temporal validation,Terminal vasopressor,phenylephrine,157/689 (22.8%),157,689,0,0.0,terminal_drug
+MIMIC-IV,MIMIC-IV temporal validation,Terminal vasopressor,vasopressin,80/689 (11.6%),80,689,0,0.0,terminal_drug
+MIMIC-IV,MIMIC-IV temporal validation,Competing outcome,death_first,138/689 (20.0%),138,689,0,0.0,corrected_status
+MIMIC-IV,MIMIC-IV temporal validation,Competing outcome,durable_liberation_alive_confirmed,231/689 (33.5%),231,689,0,0.0,corrected_status
+MIMIC-IV,MIMIC-IV temporal validation,Competing outcome,restart_first,320/689 (46.4%),320,689,0,0.0,corrected_status
+eICU,eICU development,"Age, years","Median [Q1, Q3]","67.00 [58.00, 77.00]",,3297,0,0.0,age
+eICU,eICU development,"Vasopressor episode duration, h","Median [Q1, Q3]","24.00 [13.08, 47.83]",,3297,0,0.0,duration_hours
+eICU,eICU development,"Last MAP, mmHg","Median [Q1, Q3]","74.00 [67.00, 83.00]",,3289,8,0.24264482863208978,map_last
+eICU,eICU development,"Mean MAP, prior 1 h, mmHg","Median [Q1, Q3]","74.50 [68.08, 82.25]",,3247,50,1.5165301789505612,map_mean_1h
+eICU,eICU development,"Mean MAP, prior 6 h, mmHg","Median [Q1, Q3]","74.00 [68.84, 80.36]",,3289,8,0.24264482863208978,map_mean_6h
+eICU,eICU development,"Last heart rate, beats/min","Median [Q1, Q3]","87.00 [74.00, 100.00]",,3291,6,0.18198362147406735,heart_rate_last
+eICU,eICU development,"Mean heart rate, prior 6 h, beats/min","Median [Q1, Q3]","85.11 [73.72, 97.19]",,3291,6,0.18198362147406735,heart_rate_mean_6h
+eICU,eICU development,"Last respiratory rate, breaths/min","Median [Q1, Q3]","20.00 [16.00, 24.00]",,2975,322,9.766454352441615,respiratory_rate_last
+eICU,eICU development,"Last temperature, C","Median [Q1, Q3]","37.00 [36.60, 37.50]",,482,2815,85.38064907491659,temperature_c_last
+eICU,eICU development,Last NEE,"Median [Q1, Q3]","0.03 [0.02, 0.06]",,1652,1645,49.89384288747346,nee_last_5min
+eICU,eICU development,"Mean NEE, prior 6 h","Median [Q1, Q3]","0.04 [0.03, 0.08]",,1652,1645,49.89384288747346,nee_mean_6h
+eICU,eICU development,Modified shock index,"Median [Q1, Q3]","1.16 [0.97, 1.38]",,3288,9,0.27297543221110104,modified_shock_index_last
+eICU,eICU development,Distinct vasopressors in episode,"Median [Q1, Q3]","1.00 [1.00, 2.00]",,3297,0,0.0,distinct_drugs
+eICU,eICU development,Active vasopressors at last grid point,"Median [Q1, Q3]","1.00 [1.00, 1.00]",,1652,1645,49.89384288747346,active_agents_last_5min
+eICU,eICU development,Sex,Female,1460/3297 (44.3%),1460,3297,0,0.0,gender
+eICU,eICU development,Sex,Male,1837/3297 (55.7%),1837,3297,0,0.0,gender
+eICU,eICU development,Race,Not available,Not available,,3297,3297,100.0,not available
+eICU,eICU development,Admission type,EW EMER.,1549/3297 (47.0%),1549,3297,0,0.0,admission_type
+eICU,eICU development,Admission type,SURGICAL SAME DAY ADMISSION,617/3297 (18.7%),617,3297,0,0.0,admission_type
+eICU,eICU development,Admission type,URGENT,1131/3297 (34.3%),1131,3297,0,0.0,admission_type
+eICU,eICU development,Terminal vasopressor,dopamine,217/3297 (6.6%),217,3297,0,0.0,terminal_drug
+eICU,eICU development,Terminal vasopressor,epinephrine,105/3297 (3.2%),105,3297,0,0.0,terminal_drug
+eICU,eICU development,Terminal vasopressor,norepinephrine,2300/3297 (69.8%),2300,3297,0,0.0,terminal_drug
+eICU,eICU development,Terminal vasopressor,phenylephrine,473/3297 (14.3%),473,3297,0,0.0,terminal_drug
+eICU,eICU development,Terminal vasopressor,vasopressin,202/3297 (6.1%),202,3297,0,0.0,terminal_drug
+eICU,eICU development,Competing outcome,no_recorded_restart_or_death_proxy_under_observation,1950/3297 (59.1%),1950,3297,0,0.0,status
+eICU,eICU development,Competing outcome,recorded_death_proxy_first,101/3297 (3.1%),101,3297,0,0.0,status
+eICU,eICU development,Competing outcome,recorded_restart_first,1246/3297 (37.8%),1246,3297,0,0.0,status
+eICU,eICU recalibration,"Age, years","Median [Q1, Q3]","67.00 [56.00, 75.00]",,1378,0,0.0,age
+eICU,eICU recalibration,"Vasopressor episode duration, h","Median [Q1, Q3]","23.00 [12.65, 47.19]",,1378,0,0.0,duration_hours
+eICU,eICU recalibration,"Last MAP, mmHg","Median [Q1, Q3]","76.00 [68.00, 85.00]",,1363,15,1.0885341074020318,map_last
+eICU,eICU recalibration,"Mean MAP, prior 1 h, mmHg","Median [Q1, Q3]","76.17 [69.10, 85.00]",,1344,34,2.467343976777939,map_mean_1h
+eICU,eICU recalibration,"Mean MAP, prior 6 h, mmHg","Median [Q1, Q3]","75.58 [70.16, 82.48]",,1363,15,1.0885341074020318,map_mean_6h
+eICU,eICU recalibration,"Last heart rate, beats/min","Median [Q1, Q3]","86.00 [74.00, 100.00]",,1363,15,1.0885341074020318,heart_rate_last
+eICU,eICU recalibration,"Mean heart rate, prior 6 h, beats/min","Median [Q1, Q3]","85.64 [74.17, 98.61]",,1363,15,1.0885341074020318,heart_rate_mean_6h
+eICU,eICU recalibration,"Last respiratory rate, breaths/min","Median [Q1, Q3]","19.00 [16.00, 23.00]",,1273,105,7.619738751814223,respiratory_rate_last
+eICU,eICU recalibration,"Last temperature, C","Median [Q1, Q3]","37.11 [36.80, 37.60]",,187,1191,86.42960812772134,temperature_c_last
+eICU,eICU recalibration,Last NEE,"Median [Q1, Q3]","0.03 [0.02, 0.05]",,766,612,44.412191582002905,nee_last_5min
+eICU,eICU recalibration,"Mean NEE, prior 6 h","Median [Q1, Q3]","0.04 [0.03, 0.08]",,766,612,44.412191582002905,nee_mean_6h
+eICU,eICU recalibration,Modified shock index,"Median [Q1, Q3]","1.14 [0.95, 1.36]",,1363,15,1.0885341074020318,modified_shock_index_last
+eICU,eICU recalibration,Distinct vasopressors in episode,"Median [Q1, Q3]","1.00 [1.00, 1.00]",,1378,0,0.0,distinct_drugs
+eICU,eICU recalibration,Active vasopressors at last grid point,"Median [Q1, Q3]","1.00 [1.00, 1.00]",,766,612,44.412191582002905,active_agents_last_5min
+eICU,eICU recalibration,Sex,Female,630/1378 (45.7%),630,1378,0,0.0,gender
+eICU,eICU recalibration,Sex,Male,748/1378 (54.3%),748,1378,0,0.0,gender
+eICU,eICU recalibration,Race,Not available,Not available,,1378,1378,100.0,not available
+eICU,eICU recalibration,Admission type,EW EMER.,721/1378 (52.3%),721,1378,0,0.0,admission_type
+eICU,eICU recalibration,Admission type,SURGICAL SAME DAY ADMISSION,174/1378 (12.6%),174,1378,0,0.0,admission_type
+eICU,eICU recalibration,Admission type,URGENT,483/1378 (35.1%),483,1378,0,0.0,admission_type
+eICU,eICU recalibration,Terminal vasopressor,dopamine,99/1378 (7.2%),99,1378,0,0.0,terminal_drug
+eICU,eICU recalibration,Terminal vasopressor,epinephrine,23/1378 (1.7%),23,1378,0,0.0,terminal_drug
+eICU,eICU recalibration,Terminal vasopressor,norepinephrine,1097/1378 (79.6%),1097,1378,0,0.0,terminal_drug
+eICU,eICU recalibration,Terminal vasopressor,phenylephrine,108/1378 (7.8%),108,1378,0,0.0,terminal_drug
+eICU,eICU recalibration,Terminal vasopressor,vasopressin,51/1378 (3.7%),51,1378,0,0.0,terminal_drug
+eICU,eICU recalibration,Competing outcome,no_recorded_restart_or_death_proxy_under_observation,854/1378 (62.0%),854,1378,0,0.0,status
+eICU,eICU recalibration,Competing outcome,recorded_death_proxy_first,47/1378 (3.4%),47,1378,0,0.0,status
+eICU,eICU recalibration,Competing outcome,recorded_restart_first,477/1378 (34.6%),477,1378,0,0.0,status
+eICU,eICU locked evaluation,"Age, years","Median [Q1, Q3]","68.00 [56.00, 77.00]",,2104,0,0.0,age
+eICU,eICU locked evaluation,"Vasopressor episode duration, h","Median [Q1, Q3]","25.00 [13.00, 49.51]",,2104,0,0.0,duration_hours
+eICU,eICU locked evaluation,"Last MAP, mmHg","Median [Q1, Q3]","74.00 [66.00, 83.00]",,2101,3,0.14258555133079848,map_last
+eICU,eICU locked evaluation,"Mean MAP, prior 1 h, mmHg","Median [Q1, Q3]","75.00 [68.08, 82.25]",,2077,27,1.2832699619771863,map_mean_1h
+eICU,eICU locked evaluation,"Mean MAP, prior 6 h, mmHg","Median [Q1, Q3]","74.76 [69.27, 81.37]",,2101,3,0.14258555133079848,map_mean_6h
+eICU,eICU locked evaluation,"Last heart rate, beats/min","Median [Q1, Q3]","88.00 [76.00, 101.00]",,2101,3,0.14258555133079848,heart_rate_last
+eICU,eICU locked evaluation,"Mean heart rate, prior 6 h, beats/min","Median [Q1, Q3]","86.64 [76.03, 98.42]",,2101,3,0.14258555133079848,heart_rate_mean_6h
+eICU,eICU locked evaluation,"Last respiratory rate, breaths/min","Median [Q1, Q3]","20.00 [16.00, 24.00]",,2053,51,2.423954372623574,respiratory_rate_last
+eICU,eICU locked evaluation,"Last temperature, C","Median [Q1, Q3]","37.20 [36.70, 37.60]",,204,1900,90.30418250950571,temperature_c_last
+eICU,eICU locked evaluation,Last NEE,"Median [Q1, Q3]","0.03 [0.02, 0.06]",,488,1616,76.80608365019012,nee_last_5min
+eICU,eICU locked evaluation,"Mean NEE, prior 6 h","Median [Q1, Q3]","0.04 [0.03, 0.07]",,488,1616,76.80608365019012,nee_mean_6h
+eICU,eICU locked evaluation,Modified shock index,"Median [Q1, Q3]","1.19 [0.99, 1.40]",,2101,3,0.14258555133079848,modified_shock_index_last
+eICU,eICU locked evaluation,Distinct vasopressors in episode,"Median [Q1, Q3]","1.00 [1.00, 1.00]",,2104,0,0.0,distinct_drugs
+eICU,eICU locked evaluation,Active vasopressors at last grid point,"Median [Q1, Q3]","1.00 [1.00, 1.00]",,488,1616,76.80608365019012,active_agents_last_5min
+eICU,eICU locked evaluation,Sex,Female,940/2104 (44.7%),940,2104,0,0.0,gender
+eICU,eICU locked evaluation,Sex,Male,1164/2104 (55.3%),1164,2104,0,0.0,gender
+eICU,eICU locked evaluation,Race,Not available,Not available,,2104,2104,100.0,not available
+eICU,eICU locked evaluation,Admission type,EW EMER.,949/2104 (45.1%),949,2104,0,0.0,admission_type
+eICU,eICU locked evaluation,Admission type,SURGICAL SAME DAY ADMISSION,409/2104 (19.4%),409,2104,0,0.0,admission_type
+eICU,eICU locked evaluation,Admission type,URGENT,746/2104 (35.5%),746,2104,0,0.0,admission_type
+eICU,eICU locked evaluation,Terminal vasopressor,dopamine,180/2104 (8.6%),180,2104,0,0.0,terminal_drug
+eICU,eICU locked evaluation,Terminal vasopressor,epinephrine,107/2104 (5.1%),107,2104,0,0.0,terminal_drug
+eICU,eICU locked evaluation,Terminal vasopressor,norepinephrine,1475/2104 (70.1%),1475,2104,0,0.0,terminal_drug
+eICU,eICU locked evaluation,Terminal vasopressor,phenylephrine,199/2104 (9.5%),199,2104,0,0.0,terminal_drug
+eICU,eICU locked evaluation,Terminal vasopressor,vasopressin,143/2104 (6.8%),143,2104,0,0.0,terminal_drug
+eICU,eICU locked evaluation,Competing outcome,no_recorded_restart_or_death_proxy_under_observation,1314/2104 (62.5%),1314,2104,0,0.0,status
+eICU,eICU locked evaluation,Competing outcome,recorded_death_proxy_first,56/2104 (2.7%),56,2104,0,0.0,status
+eICU,eICU locked evaluation,Competing outcome,recorded_restart_first,734/2104 (34.9%),734,2104,0,0.0,status

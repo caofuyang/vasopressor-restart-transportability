@@ -1,0 +1,6 @@
+﻿database,group,records,patients,admissions,icu_stays,restart_events,death_events,hospitals
+MIMIC-IV,MIMIC-IV development,8590,7795,8347,8590,3148,1337,Not available
+MIMIC-IV,MIMIC-IV temporal validation,689,652,664,689,320,138,Not available
+eICU,eICU development,3297,3203,3297,Not available,1246,101,65
+eICU,eICU recalibration,1378,1339,1378,Not available,477,47,18
+eICU,eICU locked evaluation,2104,2057,2104,Not available,734,56,37
