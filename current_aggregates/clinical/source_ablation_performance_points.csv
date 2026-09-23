@@ -1,0 +1,3 @@
+variant,model,n,hospitals,events,prevalence,status,auroc,auprc,brier,calibration_intercept,calibration_slope,mean_predicted_risk
+primary_traceable,corrected_primary_source_raw,2104,37,734,0.3488593155893536,estimated,0.5045088406690665,0.3415080414040652,0.5196946009319205,-0.7898667962771421,0.0468489972017502,0.8252167631637634
+primary_traceable,source_trained__corrected_primary__harmonized_dynamic_vitals,2104,37,734,0.3488593155893536,estimated,0.5043467451619961,0.3650351568934107,0.2377817685454686,-0.5711751339076394,0.0743457170140915,0.3480725402980792

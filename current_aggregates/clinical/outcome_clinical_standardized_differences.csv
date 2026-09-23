@@ -1,0 +1,85 @@
+database,variable,variable_label,unit,window,comparison,first_group,second_group,first_group_n,second_group_n,first_observed_n,second_observed_n,standardized_difference
+MIMIC-IV,age,Age,years,At admission/index record,restart_first_minus_no_recorded_event,restart_first,no_recorded_event,3468,4336,3468,4336,-0.04511914129518019
+MIMIC-IV,age,Age,years,At admission/index record,death_first_minus_no_recorded_event,death_first,no_recorded_event,1475,4336,1475,4336,0.1425051037964038
+MIMIC-IV,age,Age,years,At admission/index record,restart_first_minus_death_first,restart_first,death_first,3468,1475,3468,1475,-0.1911584603523148
+MIMIC-IV,duration_hours,Qualifying vasopressor episode duration,hours,Episode start to reconstructed cessation,restart_first_minus_no_recorded_event,restart_first,no_recorded_event,3468,4336,3468,4336,0.07042020284063186
+MIMIC-IV,duration_hours,Qualifying vasopressor episode duration,hours,Episode start to reconstructed cessation,death_first_minus_no_recorded_event,death_first,no_recorded_event,1475,4336,1475,4336,0.42664569599375607
+MIMIC-IV,duration_hours,Qualifying vasopressor episode duration,hours,Episode start to reconstructed cessation,restart_first_minus_death_first,restart_first,death_first,3468,1475,3468,1475,-0.3656526640803701
+MIMIC-IV,distinct_drugs,Distinct vasopressors in qualifying episode,count,Qualifying episode,restart_first_minus_no_recorded_event,restart_first,no_recorded_event,3468,4336,3468,4336,0.07267615294755277
+MIMIC-IV,distinct_drugs,Distinct vasopressors in qualifying episode,count,Qualifying episode,death_first_minus_no_recorded_event,death_first,no_recorded_event,1475,4336,1475,4336,1.0914979246678633
+MIMIC-IV,distinct_drugs,Distinct vasopressors in qualifying episode,count,Qualifying episode,restart_first_minus_death_first,restart_first,death_first,3468,1475,3468,1475,-1.0123406879188963
+MIMIC-IV,map_last,Last MAP,mm Hg,Latest recorded value before cessation,restart_first_minus_no_recorded_event,restart_first,no_recorded_event,3468,4336,3327,4216,0.0568776276539038
+MIMIC-IV,map_last,Last MAP,mm Hg,Latest recorded value before cessation,death_first_minus_no_recorded_event,death_first,no_recorded_event,1475,4336,1347,4216,-0.8187351473886872
+MIMIC-IV,map_last,Last MAP,mm Hg,Latest recorded value before cessation,restart_first_minus_death_first,restart_first,death_first,3468,1475,3327,1347,0.849144844947528
+MIMIC-IV,heart_rate_last,Last heart rate,beats/min,Latest recorded value before cessation,restart_first_minus_no_recorded_event,restart_first,no_recorded_event,3468,4336,3468,4334,0.09253735268604225
+MIMIC-IV,heart_rate_last,Last heart rate,beats/min,Latest recorded value before cessation,death_first_minus_no_recorded_event,death_first,no_recorded_event,1475,4336,1473,4334,0.41553936148923976
+MIMIC-IV,heart_rate_last,Last heart rate,beats/min,Latest recorded value before cessation,restart_first_minus_death_first,restart_first,death_first,3468,1475,3468,1473,-0.33624856495581423
+MIMIC-IV,nee_last_5min,Last norepinephrine-equivalent dose,micrograms/kg/min,Last 5 min before cessation,restart_first_minus_no_recorded_event,restart_first,no_recorded_event,3468,4336,3468,4336,0.16198256554697785
+MIMIC-IV,nee_last_5min,Last norepinephrine-equivalent dose,micrograms/kg/min,Last 5 min before cessation,death_first_minus_no_recorded_event,death_first,no_recorded_event,1475,4336,1475,4336,1.2978660198366032
+MIMIC-IV,nee_last_5min,Last norepinephrine-equivalent dose,micrograms/kg/min,Last 5 min before cessation,restart_first_minus_death_first,restart_first,death_first,3468,1475,3468,1475,-1.2639936201048534
+MIMIC-IV,active_agents_last_5min,Active vasopressors,count,Last 5 min before cessation,restart_first_minus_no_recorded_event,restart_first,no_recorded_event,3468,4336,3468,4336,0.12470278423081356
+MIMIC-IV,active_agents_last_5min,Active vasopressors,count,Last 5 min before cessation,death_first_minus_no_recorded_event,death_first,no_recorded_event,1475,4336,1475,4336,1.2397821034261218
+MIMIC-IV,active_agents_last_5min,Active vasopressors,count,Last 5 min before cessation,restart_first_minus_death_first,restart_first,death_first,3468,1475,3468,1475,-1.1968154611226458
+MIMIC-IV,map_mean_1h,Mean MAP,mm Hg,1 h before cessation,restart_first_minus_no_recorded_event,restart_first,no_recorded_event,3468,4336,3177,4104,0.042706853845830645
+MIMIC-IV,map_mean_1h,Mean MAP,mm Hg,1 h before cessation,death_first_minus_no_recorded_event,death_first,no_recorded_event,1475,4336,1234,4104,-0.8260000924583983
+MIMIC-IV,map_mean_1h,Mean MAP,mm Hg,1 h before cessation,restart_first_minus_death_first,restart_first,death_first,3468,1475,3177,1234,0.8500326568469286
+MIMIC-IV,map_mean_6h,Mean MAP,mm Hg,6 h before cessation,restart_first_minus_no_recorded_event,restart_first,no_recorded_event,3468,4336,3327,4216,0.013718599952623844
+MIMIC-IV,map_mean_6h,Mean MAP,mm Hg,6 h before cessation,death_first_minus_no_recorded_event,death_first,no_recorded_event,1475,4336,1347,4216,-0.6803023337752934
+MIMIC-IV,map_mean_6h,Mean MAP,mm Hg,6 h before cessation,restart_first_minus_death_first,restart_first,death_first,3468,1475,3327,1347,0.6875882984031129
+MIMIC-IV,heart_rate_mean_1h,Mean heart rate,beats/min,1 h before cessation,restart_first_minus_no_recorded_event,restart_first,no_recorded_event,3468,4336,3353,4285,0.08660370919580597
+MIMIC-IV,heart_rate_mean_1h,Mean heart rate,beats/min,1 h before cessation,death_first_minus_no_recorded_event,death_first,no_recorded_event,1475,4336,1408,4285,0.5062436703397144
+MIMIC-IV,heart_rate_mean_1h,Mean heart rate,beats/min,1 h before cessation,restart_first_minus_death_first,restart_first,death_first,3468,1475,3353,1408,-0.4294693368249901
+MIMIC-IV,heart_rate_mean_6h,Mean heart rate,beats/min,6 h before cessation,restart_first_minus_no_recorded_event,restart_first,no_recorded_event,3468,4336,3468,4334,0.0790531664263013
+MIMIC-IV,heart_rate_mean_6h,Mean heart rate,beats/min,6 h before cessation,death_first_minus_no_recorded_event,death_first,no_recorded_event,1475,4336,1473,4334,0.6457331244649771
+MIMIC-IV,heart_rate_mean_6h,Mean heart rate,beats/min,6 h before cessation,restart_first_minus_death_first,restart_first,death_first,3468,1475,3468,1473,-0.577249744328186
+MIMIC-IV,nee_mean_1h,Mean norepinephrine-equivalent dose,micrograms/kg/min,1 h before cessation,restart_first_minus_no_recorded_event,restart_first,no_recorded_event,3468,4336,3468,4336,0.15696109531696245
+MIMIC-IV,nee_mean_1h,Mean norepinephrine-equivalent dose,micrograms/kg/min,1 h before cessation,death_first_minus_no_recorded_event,death_first,no_recorded_event,1475,4336,1475,4336,1.3316297945199265
+MIMIC-IV,nee_mean_1h,Mean norepinephrine-equivalent dose,micrograms/kg/min,1 h before cessation,restart_first_minus_death_first,restart_first,death_first,3468,1475,3468,1475,-1.2909080233956012
+MIMIC-IV,nee_mean_6h,Mean norepinephrine-equivalent dose,micrograms/kg/min,6 h before cessation,restart_first_minus_no_recorded_event,restart_first,no_recorded_event,3468,4336,3468,4336,0.16503243246716034
+MIMIC-IV,nee_mean_6h,Mean norepinephrine-equivalent dose,micrograms/kg/min,6 h before cessation,death_first_minus_no_recorded_event,death_first,no_recorded_event,1475,4336,1475,4336,1.3205827731495563
+MIMIC-IV,nee_mean_6h,Mean norepinephrine-equivalent dose,micrograms/kg/min,6 h before cessation,restart_first_minus_death_first,restart_first,death_first,3468,1475,3468,1475,-1.2807742748204718
+MIMIC-IV,maximum_active_agents_6h,Maximum simultaneous vasopressors,count,6 h before cessation,restart_first_minus_no_recorded_event,restart_first,no_recorded_event,3468,4336,3468,4336,0.15305041689410878
+MIMIC-IV,maximum_active_agents_6h,Maximum simultaneous vasopressors,count,6 h before cessation,death_first_minus_no_recorded_event,death_first,no_recorded_event,1475,4336,1475,4336,1.3155603509399623
+MIMIC-IV,maximum_active_agents_6h,Maximum simultaneous vasopressors,count,6 h before cessation,restart_first_minus_death_first,restart_first,death_first,3468,1475,3468,1475,-1.2161649379404742
+eICU,age,Age,years,At admission/index record,restart_first_minus_no_recorded_event,restart_first,no_recorded_event,2457,4118,2457,4118,-0.017041359059229662
+eICU,age,Age,years,At admission/index record,death_first_minus_no_recorded_event,death_first,no_recorded_event,204,4118,204,4118,0.38012553713863606
+eICU,age,Age,years,At admission/index record,restart_first_minus_death_first,restart_first,death_first,2457,204,2457,204,-0.3945322226993293
+eICU,duration_hours,Qualifying vasopressor episode duration,hours,Episode start to reconstructed cessation,restart_first_minus_no_recorded_event,restart_first,no_recorded_event,2457,4118,2457,4118,0.15322460094906143
+eICU,duration_hours,Qualifying vasopressor episode duration,hours,Episode start to reconstructed cessation,death_first_minus_no_recorded_event,death_first,no_recorded_event,204,4118,204,4118,0.32391316315506596
+eICU,duration_hours,Qualifying vasopressor episode duration,hours,Episode start to reconstructed cessation,restart_first_minus_death_first,restart_first,death_first,2457,204,2457,204,-0.139420768337642
+eICU,distinct_drugs,Distinct vasopressors in qualifying episode,count,Qualifying episode,restart_first_minus_no_recorded_event,restart_first,no_recorded_event,2457,4118,2457,4118,0.035389592516026205
+eICU,distinct_drugs,Distinct vasopressors in qualifying episode,count,Qualifying episode,death_first_minus_no_recorded_event,death_first,no_recorded_event,204,4118,204,4118,0.8685465932590806
+eICU,distinct_drugs,Distinct vasopressors in qualifying episode,count,Qualifying episode,restart_first_minus_death_first,restart_first,death_first,2457,204,2457,204,-0.840740858617864
+eICU,map_last,Last MAP,mm Hg,Latest recorded value before cessation,restart_first_minus_no_recorded_event,restart_first,no_recorded_event,2457,4118,2446,4104,-0.22391309798926684
+eICU,map_last,Last MAP,mm Hg,Latest recorded value before cessation,death_first_minus_no_recorded_event,death_first,no_recorded_event,204,4118,203,4104,-1.039023547545686
+eICU,map_last,Last MAP,mm Hg,Latest recorded value before cessation,restart_first_minus_death_first,restart_first,death_first,2457,204,2446,203,0.8360798401163029
+eICU,heart_rate_last,Last heart rate,beats/min,Latest recorded value before cessation,restart_first_minus_no_recorded_event,restart_first,no_recorded_event,2457,4118,2447,4104,0.045322721212892034
+eICU,heart_rate_last,Last heart rate,beats/min,Latest recorded value before cessation,death_first_minus_no_recorded_event,death_first,no_recorded_event,204,4118,204,4104,0.2699579896490247
+eICU,heart_rate_last,Last heart rate,beats/min,Latest recorded value before cessation,restart_first_minus_death_first,restart_first,death_first,2457,204,2447,204,-0.23015428393863588
+eICU,nee_last_5min,Last norepinephrine-equivalent dose,micrograms/kg/min,Last 5 min before cessation,restart_first_minus_no_recorded_event,restart_first,no_recorded_event,2457,4118,1068,1755,-0.0308455317038015
+eICU,nee_last_5min,Last norepinephrine-equivalent dose,micrograms/kg/min,Last 5 min before cessation,death_first_minus_no_recorded_event,death_first,no_recorded_event,204,4118,83,1755,0.22546493677172832
+eICU,nee_last_5min,Last norepinephrine-equivalent dose,micrograms/kg/min,Last 5 min before cessation,restart_first_minus_death_first,restart_first,death_first,2457,204,1068,83,-0.3528265840192383
+eICU,active_agents_last_5min,Active vasopressors,count,Last 5 min before cessation,restart_first_minus_no_recorded_event,restart_first,no_recorded_event,2457,4118,1068,1755,0.120888799830921
+eICU,active_agents_last_5min,Active vasopressors,count,Last 5 min before cessation,death_first_minus_no_recorded_event,death_first,no_recorded_event,204,4118,83,1755,0.8290747725393469
+eICU,active_agents_last_5min,Active vasopressors,count,Last 5 min before cessation,restart_first_minus_death_first,restart_first,death_first,2457,204,1068,83,-0.7628430913742918
+eICU,map_mean_1h,Mean MAP,mm Hg,1 h before cessation,restart_first_minus_no_recorded_event,restart_first,no_recorded_event,2457,4118,2420,4049,-0.22452110272427714
+eICU,map_mean_1h,Mean MAP,mm Hg,1 h before cessation,death_first_minus_no_recorded_event,death_first,no_recorded_event,204,4118,199,4049,-1.0333754797787893
+eICU,map_mean_1h,Mean MAP,mm Hg,1 h before cessation,restart_first_minus_death_first,restart_first,death_first,2457,204,2420,199,0.8270394305379609
+eICU,map_mean_6h,Mean MAP,mm Hg,6 h before cessation,restart_first_minus_no_recorded_event,restart_first,no_recorded_event,2457,4118,2446,4104,-0.23873752176079827
+eICU,map_mean_6h,Mean MAP,mm Hg,6 h before cessation,death_first_minus_no_recorded_event,death_first,no_recorded_event,204,4118,203,4104,-0.9250405595678
+eICU,map_mean_6h,Mean MAP,mm Hg,6 h before cessation,restart_first_minus_death_first,restart_first,death_first,2457,204,2446,203,0.717688552686147
+eICU,heart_rate_mean_1h,Mean heart rate,beats/min,1 h before cessation,restart_first_minus_no_recorded_event,restart_first,no_recorded_event,2457,4118,2438,4082,0.03115620187145971
+eICU,heart_rate_mean_1h,Mean heart rate,beats/min,1 h before cessation,death_first_minus_no_recorded_event,death_first,no_recorded_event,204,4118,200,4082,0.49402318643515686
+eICU,heart_rate_mean_1h,Mean heart rate,beats/min,1 h before cessation,restart_first_minus_death_first,restart_first,death_first,2457,204,2438,200,-0.4564733674396296
+eICU,heart_rate_mean_6h,Mean heart rate,beats/min,6 h before cessation,restart_first_minus_no_recorded_event,restart_first,no_recorded_event,2457,4118,2447,4104,0.02087908985696444
+eICU,heart_rate_mean_6h,Mean heart rate,beats/min,6 h before cessation,death_first_minus_no_recorded_event,death_first,no_recorded_event,204,4118,204,4104,0.6191743581617166
+eICU,heart_rate_mean_6h,Mean heart rate,beats/min,6 h before cessation,restart_first_minus_death_first,restart_first,death_first,2457,204,2447,204,-0.5873828948385555
+eICU,nee_mean_1h,Mean norepinephrine-equivalent dose,micrograms/kg/min,1 h before cessation,restart_first_minus_no_recorded_event,restart_first,no_recorded_event,2457,4118,781,1033,-0.040257753469368156
+eICU,nee_mean_1h,Mean norepinephrine-equivalent dose,micrograms/kg/min,1 h before cessation,death_first_minus_no_recorded_event,death_first,no_recorded_event,204,4118,52,1033,0.4567535102158512
+eICU,nee_mean_1h,Mean norepinephrine-equivalent dose,micrograms/kg/min,1 h before cessation,restart_first_minus_death_first,restart_first,death_first,2457,204,781,52,-1.1212807013824595
+eICU,nee_mean_6h,Mean norepinephrine-equivalent dose,micrograms/kg/min,6 h before cessation,restart_first_minus_no_recorded_event,restart_first,no_recorded_event,2457,4118,1068,1755,-0.02987478253492183
+eICU,nee_mean_6h,Mean norepinephrine-equivalent dose,micrograms/kg/min,6 h before cessation,death_first_minus_no_recorded_event,death_first,no_recorded_event,204,4118,83,1755,0.2148644735808795
+eICU,nee_mean_6h,Mean norepinephrine-equivalent dose,micrograms/kg/min,6 h before cessation,restart_first_minus_death_first,restart_first,death_first,2457,204,1068,83,-0.33897189842703
+eICU,maximum_active_agents_6h,Maximum simultaneous vasopressors,count,6 h before cessation,restart_first_minus_no_recorded_event,restart_first,no_recorded_event,2457,4118,1068,1755,0.11703980346930744
+eICU,maximum_active_agents_6h,Maximum simultaneous vasopressors,count,6 h before cessation,death_first_minus_no_recorded_event,death_first,no_recorded_event,204,4118,83,1755,0.9116657252540018
+eICU,maximum_active_agents_6h,Maximum simultaneous vasopressors,count,6 h before cessation,restart_first_minus_death_first,restart_first,death_first,2457,204,1068,83,-0.847529004420684

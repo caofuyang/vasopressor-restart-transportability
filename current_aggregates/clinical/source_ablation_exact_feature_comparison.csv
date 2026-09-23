@@ -1,0 +1,40 @@
+feature,in_full_source_model,in_dynamic_vitals_ablation,difference
+gender,True,True,retained
+admission_type,True,True,retained
+terminal_drug,True,True,retained
+age,True,True,retained
+duration_hours,True,True,retained
+distinct_drugs,True,True,retained
+map_last,True,True,retained
+heart_rate_last,True,True,retained
+modified_shock_index_last,True,True,retained
+nee_last_5min,True,False,omitted from ablation
+active_agents_last_5min,True,False,omitted from ablation
+map_mean_1h,True,True,retained
+map_min_1h,True,True,retained
+map_sd_1h,True,True,retained
+map_mean_6h,True,True,retained
+map_min_6h,True,True,retained
+map_sd_6h,True,True,retained
+map_slope_toward_stop_6h,True,True,retained
+map_below65_pct_1h,True,True,retained
+map_below65_pct_6h,True,True,retained
+map_arterial_pct_6h,True,True,retained
+heart_rate_mean_1h,True,True,retained
+heart_rate_sd_1h,True,True,retained
+heart_rate_mean_6h,True,True,retained
+heart_rate_sd_6h,True,True,retained
+heart_rate_slope_toward_stop_6h,True,True,retained
+spo2_last,True,True,retained
+spo2_mean_6h,True,True,retained
+respiratory_rate_last,True,True,retained
+respiratory_rate_mean_6h,True,True,retained
+temperature_c_last,True,True,retained
+nee_mean_1h,True,False,omitted from ablation
+nee_max_1h,True,False,omitted from ablation
+nee_mean_6h,True,False,omitted from ablation
+nee_max_6h,True,False,omitted from ablation
+nee_slope_toward_stop_6h,True,False,omitted from ablation
+maximum_active_agents_6h,True,False,omitted from ablation
+zero_nee_grid_pct_6h,True,False,omitted from ablation
+nee_last_to_max_ratio,True,False,omitted from ablation

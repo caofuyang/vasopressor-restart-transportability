@@ -1,0 +1,3 @@
+database,restart_first_total,valid_time_n,missing_or_invalid_time_n,median_hours,q1_hours,q3_hours,minimum_hours,maximum_hours
+MIMIC-IV,3468,3468,0,3.6666666666666665,2.0,7.8,0.11666666666666667,23.983333333333334
+eICU,2457,2457,0,3.0,1.0,7.416666666666667,0.016666666666666666,24.0
