@@ -1,0 +1,22 @@
+[
+  {
+    "step": "eicu/eicu_stage1b_explicit_stop_cohort.py",
+    "exit_code": 0,
+    "elapsed_seconds": 8.150146961212158
+  },
+  {
+    "step": "eicu/eicu_stage2_external_features.py",
+    "exit_code": 0,
+    "elapsed_seconds": 77.15192317962646
+  },
+  {
+    "step": "eicu_correction/01_correct_cohort.py",
+    "exit_code": 0,
+    "elapsed_seconds": 69.98121881484985
+  },
+  {
+    "step": "eicu_correction/03_evaluate.py",
+    "exit_code": 0,
+    "elapsed_seconds": 184.89861297607422
+  }
+]

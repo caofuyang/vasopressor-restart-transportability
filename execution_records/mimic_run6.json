@@ -1,0 +1,72 @@
+[
+  {
+    "stage": 1,
+    "exit_code": 0,
+    "seconds": 90.10494875907898
+  },
+  {
+    "stage": 2,
+    "exit_code": 0,
+    "seconds": 18.984553575515747
+  },
+  {
+    "stage": 3,
+    "exit_code": 0,
+    "seconds": 14.160316705703735
+  },
+  {
+    "stage": 4,
+    "exit_code": 0,
+    "seconds": 498.79551362991333
+  },
+  {
+    "stage": 5,
+    "exit_code": 0,
+    "seconds": 1.0514585971832275
+  },
+  {
+    "stage": 6,
+    "exit_code": 0,
+    "seconds": 2.408731698989868
+  },
+  {
+    "stage": 7,
+    "exit_code": 0,
+    "seconds": 1.8469014167785645
+  },
+  {
+    "stage": 11,
+    "exit_code": 0,
+    "seconds": 241.10024857521057
+  },
+  {
+    "stage": 12,
+    "exit_code": 0,
+    "seconds": 0.9214487075805664
+  },
+  {
+    "stage": 13,
+    "exit_code": 0,
+    "seconds": 0.9320764541625977
+  },
+  {
+    "stage": 17,
+    "exit_code": 0,
+    "seconds": 1.1826436519622803
+  },
+  {
+    "stage": 18,
+    "exit_code": 0,
+    "seconds": 0.9093484878540039
+  },
+  {
+    "stage": "19_post_audit",
+    "exit_code": 0,
+    "seconds": 1.8180091381072998
+  },
+  {
+    "stage": "20_scope_corrected",
+    "exit_code": 0,
+    "seconds": 0.5059950351715088
+  }
+]
