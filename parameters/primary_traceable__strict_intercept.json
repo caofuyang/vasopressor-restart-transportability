@@ -1,0 +1,19 @@
+{
+  "kind": "recalibration",
+  "clip": 1e-07,
+  "base_parameter_file": "mimic_strict__dynamic_multinomial_logistic.json",
+  "classes": [
+    0,
+    1
+  ],
+  "intercept": -3.585414958743759,
+  "slope": 1.0,
+  "provenance": {
+    "version": "deterministic_20260910",
+    "model_key": "strict_intercept",
+    "fitted_artifact_sha256": "249919ccbe5ade665463911312f21a7da6e5aea53c9de9cf9af99863ed46df3d",
+    "training_sort": [
+      "patienthealthsystemstayid"
+    ]
+  }
+}

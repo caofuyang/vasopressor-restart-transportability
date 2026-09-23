@@ -1,0 +1,325 @@
+{
+  "format_version": 1,
+  "ordered_input_features": [
+    "gender",
+    "admission_type",
+    "terminal_drug",
+    "age",
+    "duration_hours",
+    "distinct_drugs",
+    "map_last",
+    "heart_rate_last",
+    "modified_shock_index_last",
+    "spo2_last",
+    "respiratory_rate_last",
+    "temperature_c_last"
+  ],
+  "ordered_transformed_features": [
+    "numeric__age",
+    "numeric__duration_hours",
+    "numeric__distinct_drugs",
+    "numeric__map_last",
+    "numeric__heart_rate_last",
+    "numeric__modified_shock_index_last",
+    "numeric__spo2_last",
+    "numeric__respiratory_rate_last",
+    "numeric__temperature_c_last",
+    "numeric__missingindicator_map_last",
+    "numeric__missingindicator_heart_rate_last",
+    "numeric__missingindicator_modified_shock_index_last",
+    "numeric__missingindicator_spo2_last",
+    "numeric__missingindicator_respiratory_rate_last",
+    "numeric__missingindicator_temperature_c_last",
+    "categorical__gender_Female",
+    "categorical__gender_Male",
+    "categorical__admission_type_EW EMER.",
+    "categorical__admission_type_SURGICAL SAME DAY ADMISSION",
+    "categorical__admission_type_URGENT",
+    "categorical__terminal_drug_dopamine",
+    "categorical__terminal_drug_epinephrine",
+    "categorical__terminal_drug_norepinephrine",
+    "categorical__terminal_drug_phenylephrine",
+    "categorical__terminal_drug_vasopressin"
+  ],
+  "preprocessing": [
+    {
+      "columns": [
+        "age",
+        "duration_hours",
+        "distinct_drugs",
+        "map_last",
+        "heart_rate_last",
+        "modified_shock_index_last",
+        "spo2_last",
+        "respiratory_rate_last",
+        "temperature_c_last"
+      ],
+      "imputation_strategy": "median",
+      "imputation_statistics": [
+        67.0,
+        24.083333333333332,
+        1.0,
+        74.0,
+        87.0,
+        1.1523382559774964,
+        97.0,
+        20.0,
+        37.0
+      ],
+      "imputer_parameters": {
+        "add_indicator": true,
+        "copy": true,
+        "fill_value": null,
+        "keep_empty_features": false,
+        "missing_values": null,
+        "strategy": "median"
+      },
+      "kind": "numeric",
+      "retained_columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "indicator_columns": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "mean": [
+        66.49754213483146,
+        40.87425093632959,
+        1.346558988764045,
+        76.33286516853933,
+        87.80933988764045,
+        1.1914416245315747,
+        96.51509831460675,
+        20.4248595505618,
+        36.984087780898875,
+        0.0017556179775280898,
+        0.0014044943820224719,
+        0.002106741573033708,
+        0.01580056179775281,
+        0.09480337078651685,
+        0.8574438202247191
+      ],
+      "scale": [
+        14.259409257955433,
+        49.54412088425727,
+        0.6531434034797333,
+        14.919993135440638,
+        18.603939260944866,
+        0.35707066558532347,
+        4.447625564780779,
+        6.364510535956118,
+        0.4908592600954779,
+        0.04186329875971397,
+        0.037450257376329725,
+        0.045850880176700644,
+        0.12470326396942544,
+        0.29294315433891105,
+        0.3496196724773346
+      ],
+      "variance": [
+        203.33075238586508,
+        2454.6199141938973,
+        0.4265963055090897,
+        222.60619516159576,
+        346.10655602492585,
+        0.1274994602215459,
+        19.78137316449154,
+        40.506994362296425,
+        0.24094281322148003,
+        0.0017525357830450693,
+        0.0014025217775533389,
+        0.00210230321297816,
+        0.015550904044628201,
+        0.08581569167403107,
+        0.12223391538315871
+      ],
+      "samples_seen": 2848.0
+    },
+    {
+      "columns": [
+        "gender",
+        "admission_type",
+        "terminal_drug"
+      ],
+      "imputation_strategy": "most_frequent",
+      "imputation_statistics": [
+        "Male",
+        "EW EMER.",
+        "norepinephrine"
+      ],
+      "imputer_parameters": {
+        "add_indicator": false,
+        "copy": true,
+        "fill_value": null,
+        "keep_empty_features": false,
+        "missing_values": null,
+        "strategy": "most_frequent"
+      },
+      "kind": "categorical",
+      "categories": [
+        [
+          "Female",
+          "Male"
+        ],
+        [
+          "EW EMER.",
+          "SURGICAL SAME DAY ADMISSION",
+          "URGENT"
+        ],
+        [
+          "dopamine",
+          "epinephrine",
+          "norepinephrine",
+          "phenylephrine",
+          "vasopressin"
+        ]
+      ],
+      "handle_unknown": "ignore",
+      "drop_indices": [
+        null,
+        null,
+        null
+      ]
+    }
+  ],
+  "estimator": {
+    "parameters": {
+      "C": 1.0,
+      "class_weight": null,
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": 0.0,
+      "max_iter": 4000,
+      "n_jobs": null,
+      "penalty": "deprecated",
+      "random_state": null,
+      "solver": "lbfgs",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "classes": [
+      0,
+      1,
+      2
+    ],
+    "kind": "logistic",
+    "coefficients": [
+      [
+        -0.2689197510190237,
+        -0.10348772515916387,
+        -0.3503248065059168,
+        -0.15251147230264003,
+        0.3448714563034556,
+        -0.6973845924514414,
+        0.17085057949293006,
+        -0.11570459131593552,
+        0.006223932747445254,
+        0.001489809385805442,
+        0.12524616555383977,
+        0.026547263191392476,
+        -0.10132845048866165,
+        0.07243350782477377,
+        -0.04102930275890878,
+        -0.06386794205776469,
+        0.08720568274173575,
+        -0.16150901724481548,
+        0.36839331585962243,
+        -0.183546557930805,
+        0.022801861783559082,
+        0.29285984079272187,
+        -0.4646201560798894,
+        -0.15494639731398438,
+        0.32724259150161067
+      ],
+      [
+        -0.24498147376343254,
+        0.04765032259183588,
+        -0.2204513681094575,
+        -0.10164644209829093,
+        0.12250499497140106,
+        -0.25346894900739714,
+        0.17771194790466896,
+        -0.10121302647972363,
+        0.03589491490047285,
+        0.03615751254553174,
+        -0.112655787720058,
+        0.024071103085824427,
+        -0.06110197355028404,
+        0.018933540947603383,
+        -0.0067666581852670275,
+        0.056439531894560004,
+        -0.039130598940467845,
+        -0.15051390477461637,
+        0.2676719580746202,
+        -0.09984912034590579,
+        -0.28097081418853964,
+        -0.12586081788197293,
+        -0.08904921888659256,
+        0.23581540241908383,
+        0.2773743814921318
+      ],
+      [
+        0.5139012247824621,
+        0.055837402567335666,
+        0.5707761746153776,
+        0.2541579144009296,
+        -0.4673764512748489,
+        0.9508535414588354,
+        -0.34856252739760724,
+        0.2169176177956501,
+        -0.042118847647919344,
+        -0.03764732193132466,
+        -0.012590377833782975,
+        -0.05061836627721422,
+        0.16243042403896388,
+        -0.09136704877237614,
+        0.04779596094416645,
+        0.007428410163181194,
+        -0.0480750838013032,
+        0.31202292201941134,
+        -0.6360652739342519,
+        0.28339567827671797,
+        0.2581689524049807,
+        -0.1669990229107482,
+        0.5536693749664958,
+        -0.08086900510509909,
+        -0.6046169729937394
+      ]
+    ],
+    "intercepts": [
+      2.2909832462814625,
+      1.1406074198420932,
+      -3.431590666123561
+    ],
+    "iterations": [
+      100
+    ]
+  },
+  "class_meanings": {
+    "0": "no recorded event under specified observation",
+    "1": "restart first",
+    "2": "death first / administrative death proxy first"
+  },
+  "provenance": {
+    "version": "deterministic_20260910",
+    "model_key": "target_native__harmonized_last_values",
+    "fitted_artifact_sha256": "dfa45e27259cc61c702a7c23bc816a31b63b45684bea3ea0d8c3a7398e801563",
+    "training_sort": [
+      "patienthealthsystemstayid"
+    ]
+  }
+}

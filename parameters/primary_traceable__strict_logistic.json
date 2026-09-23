@@ -1,0 +1,35 @@
+{
+  "kind": "recalibration",
+  "clip": 1e-07,
+  "base_parameter_file": "mimic_strict__dynamic_multinomial_logistic.json",
+  "classes": [
+    0,
+    1
+  ],
+  "intercept": -0.6240000144803298,
+  "slope": -0.007541685347994723,
+  "parameters": {
+    "C": 1000000.0,
+    "class_weight": null,
+    "dual": false,
+    "fit_intercept": true,
+    "intercept_scaling": 1,
+    "l1_ratio": 0.0,
+    "max_iter": 5000,
+    "n_jobs": null,
+    "penalty": "deprecated",
+    "random_state": null,
+    "solver": "lbfgs",
+    "tol": 0.0001,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "provenance": {
+    "version": "deterministic_20260910",
+    "model_key": "strict_logistic",
+    "fitted_artifact_sha256": "249919ccbe5ade665463911312f21a7da6e5aea53c9de9cf9af99863ed46df3d",
+    "training_sort": [
+      "patienthealthsystemstayid"
+    ]
+  }
+}

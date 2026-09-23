@@ -1,0 +1,330 @@
+{
+  "format_version": 1,
+  "ordered_input_features": [
+    "gender",
+    "admission_type",
+    "terminal_drug",
+    "age",
+    "duration_hours",
+    "distinct_drugs",
+    "map_last",
+    "heart_rate_last",
+    "modified_shock_index_last",
+    "nee_last_5min",
+    "active_agents_last_5min"
+  ],
+  "ordered_transformed_features": [
+    "numeric__age",
+    "numeric__duration_hours",
+    "numeric__distinct_drugs",
+    "numeric__map_last",
+    "numeric__heart_rate_last",
+    "numeric__modified_shock_index_last",
+    "numeric__nee_last_5min",
+    "numeric__active_agents_last_5min",
+    "numeric__missingindicator_map_last",
+    "numeric__missingindicator_heart_rate_last",
+    "numeric__missingindicator_modified_shock_index_last",
+    "categorical__gender_F",
+    "categorical__gender_M",
+    "categorical__admission_type_AMBULATORY OBSERVATION",
+    "categorical__admission_type_DIRECT EMER.",
+    "categorical__admission_type_DIRECT OBSERVATION",
+    "categorical__admission_type_ELECTIVE",
+    "categorical__admission_type_EU OBSERVATION",
+    "categorical__admission_type_EW EMER.",
+    "categorical__admission_type_OBSERVATION ADMIT",
+    "categorical__admission_type_SURGICAL SAME DAY ADMISSION",
+    "categorical__admission_type_URGENT",
+    "categorical__terminal_drug_angiotensin_ii",
+    "categorical__terminal_drug_dopamine",
+    "categorical__terminal_drug_epinephrine",
+    "categorical__terminal_drug_norepinephrine",
+    "categorical__terminal_drug_phenylephrine",
+    "categorical__terminal_drug_vasopressin"
+  ],
+  "preprocessing": [
+    {
+      "columns": [
+        "age",
+        "duration_hours",
+        "distinct_drugs",
+        "map_last",
+        "heart_rate_last",
+        "modified_shock_index_last",
+        "nee_last_5min",
+        "active_agents_last_5min"
+      ],
+      "imputation_strategy": "median",
+      "imputation_statistics": [
+        69.0,
+        20.55,
+        1.0,
+        74.0,
+        86.0,
+        1.1645569620253164,
+        0.030041326863283757,
+        1.0
+      ],
+      "imputer_parameters": {
+        "add_indicator": true,
+        "copy": true,
+        "fill_value": null,
+        "keep_empty_features": false,
+        "missing_values": null,
+        "strategy": "median"
+      },
+      "kind": "numeric",
+      "retained_columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "indicator_columns": [
+        3,
+        4,
+        5
+      ],
+      "mean": [
+        67.3235156066651,
+        37.24996284127357,
+        1.600680591410467,
+        74.66510208871156,
+        87.74372213095518,
+        1.22019163074721,
+        0.10362918164387776,
+        1.140342642572166,
+        0.04071814128138935,
+        0.0004693733865289838,
+        0.04071814128138935
+      ],
+      "scale": [
+        14.646067158282843,
+        48.72201207707392,
+        0.8714698832437203,
+        14.489992829668578,
+        19.407802275109123,
+        0.39137395465808617,
+        0.23232755554326717,
+        0.4945312520879536,
+        0.19763646994413295,
+        0.02165994171628821,
+        0.19763646994413295
+      ],
+      "variance": [
+        214.50728320493127,
+        2373.834460838537,
+        0.7594597574008236,
+        209.95989220384683,
+        376.6627891497308,
+        0.1531735723847097,
+        0.05397609306470989,
+        0.24456115929167913,
+        0.03906017425197817,
+        0.0004691530751530023,
+        0.03906017425197817
+      ],
+      "samples_seen": 8522.0
+    },
+    {
+      "columns": [
+        "gender",
+        "admission_type",
+        "terminal_drug"
+      ],
+      "imputation_strategy": "most_frequent",
+      "imputation_statistics": [
+        "M",
+        "EW EMER.",
+        "norepinephrine"
+      ],
+      "imputer_parameters": {
+        "add_indicator": false,
+        "copy": true,
+        "fill_value": null,
+        "keep_empty_features": false,
+        "missing_values": null,
+        "strategy": "most_frequent"
+      },
+      "kind": "categorical",
+      "categories": [
+        [
+          "F",
+          "M"
+        ],
+        [
+          "AMBULATORY OBSERVATION",
+          "DIRECT EMER.",
+          "DIRECT OBSERVATION",
+          "ELECTIVE",
+          "EU OBSERVATION",
+          "EW EMER.",
+          "OBSERVATION ADMIT",
+          "SURGICAL SAME DAY ADMISSION",
+          "URGENT"
+        ],
+        [
+          "angiotensin_ii",
+          "dopamine",
+          "epinephrine",
+          "norepinephrine",
+          "phenylephrine",
+          "vasopressin"
+        ]
+      ],
+      "handle_unknown": "ignore",
+      "drop_indices": [
+        null,
+        null,
+        null
+      ]
+    }
+  ],
+  "estimator": {
+    "parameters": {
+      "C": 1.0,
+      "class_weight": null,
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": 0.0,
+      "max_iter": 3000,
+      "n_jobs": null,
+      "penalty": "deprecated",
+      "random_state": null,
+      "solver": "lbfgs",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "classes": [
+      0,
+      1,
+      2
+    ],
+    "kind": "logistic",
+    "coefficients": [
+      [
+        -0.09947429405316803,
+        -0.0801909254122049,
+        -0.092714803605266,
+        0.04210968096187944,
+        0.047422099073695226,
+        -0.25150300743377124,
+        -1.4120413423518465,
+        -0.23587435816637956,
+        -0.05442817115216488,
+        0.04955261000969565,
+        -0.05442817115216488,
+        0.05634813923552375,
+        0.06717075332920562,
+        -0.3572755937097181,
+        0.19519141401545995,
+        -0.33842332834992034,
+        0.45948383567085427,
+        -0.538125830757146,
+        0.11214140460592253,
+        -0.01101828441525695,
+        0.4649599877802906,
+        0.13658528772424755,
+        -9.72300389907594e-05,
+        0.13350459422130906,
+        0.41099561427122316,
+        -0.2045185761327661,
+        -0.09960699581878754,
+        -0.11675851393726834
+      ],
+      [
+        -0.10298998594718134,
+        -0.04854499675488904,
+        -0.019675095887863564,
+        0.09225489516811809,
+        0.08487683561620336,
+        -0.20359965396628324,
+        -0.4802937907576557,
+        -0.018771079111532554,
+        -0.0164210810734347,
+        -0.112027331185714,
+        -0.0164210810734347,
+        0.06899043934066769,
+        0.10675450078892525,
+        0.377302070656829,
+        -0.24482262934728163,
+        0.3697058157696499,
+        0.24784542530764023,
+        -0.592909758172248,
+        -0.156005957442379,
+        -0.11324657328356974,
+        0.3156349420762745,
+        -0.027758395435318065,
+        -9.755283083091189e-05,
+        -0.46441219478259527,
+        0.27443381988671367,
+        0.09712362306210406,
+        0.20289375154115344,
+        0.06580349325308477
+      ],
+      [
+        0.2024642800003356,
+        0.12873592216711596,
+        0.11238989949319435,
+        -0.1343645761300148,
+        -0.1322989346898948,
+        0.4551026614000394,
+        1.8923351331095388,
+        0.2546454372778911,
+        0.07084925222559912,
+        0.06247472117601663,
+        0.07084925222559912,
+        -0.12533857857618927,
+        -0.17392525411814283,
+        -0.020026476947110877,
+        0.049631215331824685,
+        -0.03128248741973126,
+        -0.7073292609784984,
+        1.1310355889293915,
+        0.04386455283645409,
+        0.1242648576988323,
+        -0.780594929856567,
+        -0.10882689228892505,
+        0.00019478286982164755,
+        0.33090760056128105,
+        -0.6854294341579383,
+        0.10739495307067297,
+        -0.10328675572236402,
+        0.050955020684185455
+      ]
+    ],
+    "intercepts": [
+      0.38665826803033276,
+      0.3923529758899627,
+      -0.7790112439202441
+    ],
+    "iterations": [
+      83
+    ]
+  },
+  "class_meanings": {
+    "0": "no recorded event under specified observation",
+    "1": "restart first",
+    "2": "death first / administrative death proxy first"
+  },
+  "provenance": {
+    "version": "deterministic_20260910",
+    "historical_architecture_only": true,
+    "training_sort": [
+      "subject_id",
+      "hadm_id",
+      "stay_id"
+    ],
+    "input_sha256": {
+      "derived\\vasopressor_liberation_features_stage7.parquet": "1a5e7693445b6e04051dcec3f7ead765f7e30298832cf6ddbd4e236d7a77ae50",
+      "scope_corrected\\restricted\\stage18_post_audit_scope_corrected_cohort.parquet": "ada20efde52167e97cc3724ce49e0c5dc6561cdf49cff2636188d79ebc9d3420"
+    }
+  }
+}

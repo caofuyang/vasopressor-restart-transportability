@@ -1,0 +1,7 @@
+{
+  "kind": "recalibration",
+  "intercept": -3.5365466774212897,
+  "slope": 1.0,
+  "clip": 1e-07,
+  "base_parameter_file": "mimic_primary__dynamic_multinomial_logistic.json"
+}
