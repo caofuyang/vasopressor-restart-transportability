@@ -1,0 +1,10 @@
+﻿partition,proxy_position,status,n
+adaptation_development,before,invalid_death_proxy_before_origin,1
+adaptation_development,before,invalid_origin_outside_unit,10
+adaptation_development,equal,invalid_death_proxy_equal_origin,3
+adaptation_development,equal,invalid_origin_outside_unit,1
+locked_evaluation,before,invalid_origin_outside_unit,6
+locked_evaluation,equal,invalid_death_proxy_equal_origin,3
+recalibration,before,invalid_death_proxy_before_origin,1
+recalibration,before,invalid_origin_outside_unit,2
+recalibration,equal,invalid_death_proxy_equal_origin,3

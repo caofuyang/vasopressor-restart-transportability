@@ -1,0 +1,10 @@
+﻿variant,partition,n,included
+freshness_180,adaptation_development,4434,1662
+freshness_180,locked_evaluation,2622,1236
+freshness_180,recalibration,1754,553
+gap_60,adaptation_development,4434,2848
+gap_60,locked_evaluation,2622,1839
+gap_60,recalibration,1754,1255
+primary_traceable,adaptation_development,4434,3297
+primary_traceable,locked_evaluation,2622,2104
+primary_traceable,recalibration,1754,1378
