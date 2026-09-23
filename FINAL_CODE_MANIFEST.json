@@ -1,0 +1,206 @@
+{
+  "release_date": "2026-09-11",
+  "initial_manifest": "INITIAL_DETERMINISTIC_CHANGE_MANIFEST.json records an earlier implementation snapshot, not the final code hashes",
+  "files": [
+    {
+      "file": "code/00_CLINICAL_RESULTS_ENHANCEMENT_RULES_FROZEN.md",
+      "sha256": "beefbe350c52fe0d2a02e3a9217bbacbd32d4299366f3541b883726002e53aa6"
+    },
+    {
+      "file": "code/00_POSTHOC_REPORTING_RULES_FROZEN.md",
+      "sha256": "ac1e0950e193df398832760d5da487e70909c045fa2d936b18d9bca170c43027"
+    },
+    {
+      "file": "code/00_RESULT_DISPLAY_ENHANCEMENTS_FROZEN.md",
+      "sha256": "48887cee711b7b899101a4c0eb8535d48d41e6528d499165f2d0932db0419777"
+    },
+    {
+      "file": "code/build_clinical_results.py",
+      "sha256": "36fb5fe4ad4bbfa2667c2894029c8e40d4bf08a9c75185603b604ed11d59205c"
+    },
+    {
+      "file": "code/build_descriptive_aggregates.py",
+      "sha256": "547f4e39360066df71cda0b5414746184e6626f5b03aa002c090dd3789110350"
+    },
+    {
+      "file": "code/build_result_displays.py",
+      "sha256": "e6f8fb055cabb8e0da1b3aaeb3c2d10671fa3685c101541f74b0bbeb0344cfd3"
+    },
+    {
+      "file": "code/compare_eicu_runs.py",
+      "sha256": "82111303154aea7d191d807aaf26b9d373a6508b4ae4ec23d7b859e748eb7160"
+    },
+    {
+      "file": "code/compare_independent_runs.py",
+      "sha256": "e0141a4ff873c9c59379c502d292ade1252644eb678b49e1d5e754d178c395be"
+    },
+    {
+      "file": "code/compare_overlap_runs.py",
+      "sha256": "9da6164e3bd0c7d785a87a33bce9021790ef5b33eecbade2a1e6b4e97651405b"
+    },
+    {
+      "file": "code/compare_result_tables.py",
+      "sha256": "cd77f940da421f56da14586e108ce70eaf6b107887fe82b185d35f4802c7a8c4"
+    },
+    {
+      "file": "code/eicu/eicu_stage1b_explicit_stop_cohort.py",
+      "sha256": "b7cc23ffc8370ca02666b224f268fa50f76087555de2d3baac3e844bd361ce79"
+    },
+    {
+      "file": "code/eicu/eicu_stage2_external_features.py",
+      "sha256": "c78fb2f202842412f18a0e0439cd81b0f9b8f229b4ece9aaa79a34b1804e3891"
+    },
+    {
+      "file": "code/eicu_correction/00_EICU_CORRECTION_RULES_FROZEN.md",
+      "sha256": "e597e613f63b4e04aabe5e46526cb39c50c6f17c48760d4600a66a730211e2e3"
+    },
+    {
+      "file": "code/eicu_correction/01_correct_cohort.py",
+      "sha256": "177a059b5a097acda73be73d067d6cfe6831d83e88fd0ea9d878e5a19a5c9dce"
+    },
+    {
+      "file": "code/eicu_correction/03_evaluate.py",
+      "sha256": "bc716e955f5264e40308de4d9203da6673912af35972fe28c1340aebb7c87039"
+    },
+    {
+      "file": "code/eicu_correction/common.py",
+      "sha256": "e201a6faadfd25643d8f4492423d4f777a05894169f837055d977f5caa7512a4"
+    },
+    {
+      "file": "code/eicu_correction/eicu_target_partition_freeze_manifest.json",
+      "sha256": "bf97777af17e9c2d3a5b26a50b41c80164f48a9491109ca9707dc6e854575fe2"
+    },
+    {
+      "file": "code/eicu_correction/RULES_LOCK.sha256",
+      "sha256": "d78206423665b556a0be82a9902d9deb3abdb88d044282bc151c7c08a4ffa214"
+    },
+    {
+      "file": "code/export_eicu.py",
+      "sha256": "f98f4c70b965bd9ec69fc64b0e826c824563967e4f5cd7a4eea5bdbbcdd0a43f"
+    },
+    {
+      "file": "code/export_parameters.py",
+      "sha256": "6980e3c365c7641ffa1710d8b507ba3e85dbcb3d37701fcce80ccb1c66321919"
+    },
+    {
+      "file": "code/mimic/00_MIMIC_RESTART_SCOPE_CORRECTION_FROZEN.md",
+      "sha256": "8f5394306382ad49bcffba7478c495139568f83191d70702dde8104e00e4975f"
+    },
+    {
+      "file": "code/mimic/mimic_restart_scope_correction_manifest.json",
+      "sha256": "714f449a8d9113c32839c4a105886c7a1802c13f503116024c3355a731684188"
+    },
+    {
+      "file": "code/mimic/MIMIC_RESTART_SCOPE_RULES_LOCK.sha256",
+      "sha256": "ead5d2ec891d0ad54fab875560b03a94a7ea9340885e267c325bb5bb89fc31e8"
+    },
+    {
+      "file": "code/mimic/stage01.py",
+      "sha256": "04e22b9c85d4db22c5824481f5233ca25e06c1151ab88a6feeb40707e8133d9a"
+    },
+    {
+      "file": "code/mimic/stage02.py",
+      "sha256": "ff7135c2204af322e9017652c6e97fc823088cceea280674b64095ca014c2db8"
+    },
+    {
+      "file": "code/mimic/stage03.py",
+      "sha256": "317ac0e1d1f1a5d0b9ca80d6bcdc74b6865fe5898c5ac421365d71a621cd728b"
+    },
+    {
+      "file": "code/mimic/stage04.py",
+      "sha256": "b0f727ded5d48dc319fb3e7bb0ee3bd91694a8345fbe1c7f876ee72cf2aa4145"
+    },
+    {
+      "file": "code/mimic/stage05.py",
+      "sha256": "87e5597c266bb008699f2c13ac7f019ee5dd27a90beae0e3344e4836fce69a4c"
+    },
+    {
+      "file": "code/mimic/stage06.py",
+      "sha256": "d83d1cb43f04173e2cc186d05dce616f6e4d6bafb5f0fa309bc31fca07dfef26"
+    },
+    {
+      "file": "code/mimic/stage07.py",
+      "sha256": "9fe5a1ed6af1757b3d23d04b9e677d5bc5faf67eb56cb1215b147530f9508b76"
+    },
+    {
+      "file": "code/mimic/stage11.py",
+      "sha256": "4e52366b5f996f055ab856bd4bff24e9b045fd42015bf591f2cb8e1927fb7c49"
+    },
+    {
+      "file": "code/mimic/stage12.py",
+      "sha256": "4a27a846c005c359bfe84b37d0775e6dec1c857a58661b1add846ddb3e380360"
+    },
+    {
+      "file": "code/mimic/stage13.py",
+      "sha256": "5cb62aeebb16e03ca56f2b4a7181f1c18d8ebc884e0ece3fd3bc96f201d59ff1"
+    },
+    {
+      "file": "code/mimic/stage17.py",
+      "sha256": "e072b0384216ddf737b5f45a7bbefb72831f2073a721fdd3c78162b9178f0a0e"
+    },
+    {
+      "file": "code/mimic/stage18.py",
+      "sha256": "bab8feed74e8c17e5f47e45338deabd50357b543c21c9e7ac732fd404fbadf96"
+    },
+    {
+      "file": "code/mimic/stage19_post_audit.py",
+      "sha256": "49d9ac50e88f913fc11302d46010d3253154eb074e8f44352df8eb7c1b23ee14"
+    },
+    {
+      "file": "code/mimic/stage20_scope_corrected.py",
+      "sha256": "7c8999ab0246d3a05b9d03cffff61cc8e533dda8303499addceaaaee3f4b7a78"
+    },
+    {
+      "file": "code/mimic/stream_raw.py",
+      "sha256": "f0f517aba0e7e7a6e849543ecd670629477c65acf80f7e0fa59262aeb0bd485f"
+    },
+    {
+      "file": "code/mimic_evaluation.py",
+      "sha256": "dc23f45ddcce079e22538eab347391ffc2cf045f2b1db0cf9704ebb1f6421159"
+    },
+    {
+      "file": "code/model_from_json.py",
+      "sha256": "c6be6891b65cfd6289c8b41785784917acd4fc307adbeff5159b508b28136fbb"
+    },
+    {
+      "file": "code/portable_predict.py",
+      "sha256": "f73ceffecceb8f4ee33bfa110508f2387555b7dc63d3616e9c20a4cec4e75b7b"
+    },
+    {
+      "file": "code/predict_from_json.py",
+      "sha256": "7388d6eaa9ebff75925a0d0e70e02c9453b597ce2094a72922d8977b10641e98"
+    },
+    {
+      "file": "code/prepare_historical_comparison_inputs.py",
+      "sha256": "ef52d5fb651c0d90fad4e0c4d9ba182b24cbe17f97fd9912dc83615d2fc29c25"
+    },
+    {
+      "file": "code/publication_figures.py",
+      "sha256": "08dc1bbd193e90907b398458b055866e868c715ed0173a994c04f22ef9c504bc"
+    },
+    {
+      "file": "code/replay_existing_overlap_sensitivity.py",
+      "sha256": "bdc12147a7ad99a61935b73f9ed0150ec6e512f4a0561983388ff08473918545"
+    },
+    {
+      "file": "code/replay_existing_posthoc.py",
+      "sha256": "7597b157fe94d675aaaa3b5aceca1bdf126920aec74442c55edf2843ac056cbf"
+    },
+    {
+      "file": "code/run_all.py",
+      "sha256": "d80830a55d5ce5645660f7eb0355198ee742bcd9f420474a5b6fbc122b59b2af"
+    },
+    {
+      "file": "code/run_eicu.py",
+      "sha256": "5f8aee01f6ff95ce40923674e27faa71b557b019c3891c53f42c06237f6ca575"
+    },
+    {
+      "file": "code/run_mimic_raw_stages.py",
+      "sha256": "84b609753d612f5fa382afc34fb0566e00079be29ab8dd74ca1568a24e033866"
+    },
+    {
+      "file": "code/train_mimic.py",
+      "sha256": "cc04c15ba4e92fc624e5f3bfa65f7d4c84b83701bae1c034d7e7d8a462f3c4a4"
+    }
+  ]
+}

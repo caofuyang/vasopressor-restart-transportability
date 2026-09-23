@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata from this file."
+title: "Vasopressor cessation and transportability reproduction package"
+type: software
+authors:
+  - family-names: "Li"
+    given-names: "Juan"
+  - family-names: "Li"
+    given-names: "Li"
+  - family-names: "Li"
+    given-names: "Jiannan"
+  - family-names: "Yang"
+    given-names: "Lu"
+  - family-names: "Cao"
+    given-names: "Fuyang"
+abstract: "Executable raw-table-to-results pipeline, frozen rules, readable fitted model parameters, independent prediction code, and aggregate results for the study: Recorded vasopressor restart after cessation: timing, endpoint ascertainment, and cross-database model transportability in MIMIC-IV and eICU."
+keywords:
+  - vasopressor
+  - cessation
+  - restart
+  - transportability
+  - MIMIC-IV
+  - eICU
+  - prediction model
+license: MIT
+version: "1.0.0"
+date-released: "2026-09-23"

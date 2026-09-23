@@ -1,0 +1,8 @@
+{
+  "packages": {
+    "matplotlib": "3.11.1",
+    "reportlab": "4.4.9",
+    "pypdf": "6.10.0"
+  },
+  "note": "Analysis and PDF libraries were loaded in the recorded analysis process; requirements combines these exact versions for installation in one environment."
+}

@@ -1,0 +1,9 @@
+model,comparison,n,max_absolute_difference,tolerance,judgement
+clinical_multinomial_logistic,json_vs_fitted_object,906,3.3306690738754696e-16,1e-10,match
+clinical_multinomial_logistic,json_vs_archived_predictions,906,1.6653345369377348e-16,1e-10,match
+dynamic_multinomial_logistic,json_vs_fitted_object,906,6.661338147750939e-16,1e-10,match
+dynamic_multinomial_logistic,json_vs_archived_predictions,906,3.3306690738754696e-16,1e-10,match
+dynamic_multiclass_hgb,json_vs_fitted_object,906,0.0,1e-10,match
+dynamic_multiclass_hgb,json_vs_archived_predictions,906,0.0,1e-10,match
+laboratory_extended_multiclass_hgb,json_vs_fitted_object,906,0.0,1e-10,match
+laboratory_extended_multiclass_hgb,json_vs_archived_predictions,906,0.0,1e-10,match

@@ -1,0 +1,37 @@
+model,n,max_absolute_prediction_difference,tolerance,judgement,analysis
+mimic_primary__clinical_multinomial_logistic,689.0,2.220446049250313e-16,1e-10,match,MIMIC
+mimic_primary__dynamic_multiclass_hgb,689.0,0.0,1e-10,match,MIMIC
+mimic_primary__dynamic_multinomial_logistic,689.0,4.440892098500626e-16,1e-10,match,MIMIC
+mimic_primary__laboratory_extended_multiclass_hgb,689.0,0.0,1e-10,match,MIMIC
+ablation__source__corrected_primary__harmonized_dynamic_vitals,689.0,4.440892098500626e-16,1e-10,match,MIMIC
+ablation__source__corrected_primary__harmonized_last_values,689.0,2.220446049250313e-16,1e-10,match,MIMIC
+mimic_strict__clinical_multinomial_logistic,680.0,2.220446049250313e-16,1e-10,match,MIMIC
+mimic_strict__dynamic_multiclass_hgb,680.0,0.0,1e-10,match,MIMIC
+mimic_strict__dynamic_multinomial_logistic,680.0,5.551115123125784e-16,1e-10,match,MIMIC
+mimic_strict__laboratory_extended_multiclass_hgb,680.0,0.0,1e-10,match,MIMIC
+ablation__source__corrected_strict__harmonized_dynamic_vitals,680.0,4.996003610813204e-16,1e-10,match,MIMIC
+ablation__source__corrected_strict__harmonized_last_values,680.0,4.440892098500626e-16,1e-10,match,MIMIC
+primary_traceable__primary_intercept,2104.0,0.0,1e-10,match,eICU
+primary_traceable__primary_logistic,2104.0,0.0,1e-10,match,eICU
+primary_traceable__strict_intercept,2104.0,0.0,1e-10,match,eICU
+primary_traceable__strict_logistic,2104.0,0.0,1e-10,match,eICU
+primary_traceable__target_native_refit,2104.0,2.4424906541753444e-15,1e-10,match,eICU
+primary_traceable__target_native__harmonized_last_values,2104.0,4.440892098500626e-16,1e-10,match,eICU
+primary_traceable__target_native__harmonized_dynamic_vitals,2104.0,4.440892098500626e-16,1e-10,match,eICU
+freshness_180__primary_intercept,1236.0,0.0,1e-10,match,eICU
+freshness_180__primary_logistic,1236.0,0.0,1e-10,match,eICU
+freshness_180__strict_intercept,1236.0,0.0,1e-10,match,eICU
+freshness_180__strict_logistic,1236.0,0.0,1e-10,match,eICU
+freshness_180__target_native_refit,1236.0,1.7763568394002505e-15,1e-10,match,eICU
+freshness_180__target_native__harmonized_last_values,1236.0,6.661338147750939e-16,1e-10,match,eICU
+freshness_180__target_native__harmonized_dynamic_vitals,1236.0,8.881784197001252e-16,1e-10,match,eICU
+gap_60__primary_intercept,1839.0,0.0,1e-10,match,eICU
+gap_60__primary_logistic,1839.0,0.0,1e-10,match,eICU
+gap_60__strict_intercept,1839.0,0.0,1e-10,match,eICU
+gap_60__strict_logistic,1839.0,0.0,1e-10,match,eICU
+gap_60__target_native_refit,1839.0,5.551115123125784e-16,1e-10,match,eICU
+gap_60__target_native__harmonized_last_values,1839.0,3.3306690738754696e-16,1e-10,match,eICU
+gap_60__target_native__harmonized_dynamic_vitals,1839.0,1.2212453270876722e-15,1e-10,match,eICU
+target_native_refit,,1.2212453270876722e-15,1e-10,match,overlap sensitivity
+source_intercept_recalibrated,,0.0,1e-10,match,overlap sensitivity
+source_logistic_recalibrated,,0.0,1e-10,match,overlap sensitivity

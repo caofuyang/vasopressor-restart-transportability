@@ -1,0 +1,15 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scikit-learn": "1.9.0",
+    "scipy": "1.18.0",
+    "duckdb": "1.5.5",
+    "joblib": "1.5.3",
+    "pyarrow": "25.0.1"
+  },
+  "numerical_threads": 1,
+  "mimic_bootstrap_seed": 20260825
+}
