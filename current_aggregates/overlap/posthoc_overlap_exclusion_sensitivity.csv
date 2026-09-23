@@ -1,0 +1,5 @@
+﻿analysis,model,n,patients,hospitals,events,auroc,auprc,brier,mean_predicted_risk
+post_hoc_exclude_cross_partition_patients,source_raw,2084,2039,37,724,0.5051013568410789,0.340651830346694,0.5208641863924877,0.8268864103636286
+post_hoc_exclude_cross_partition_patients,source_intercept_recalibrated,2084,2039,37,724,0.5051013568410789,0.340651830346694,0.3916983446742422,0.5878534925781874
+post_hoc_exclude_cross_partition_patients,source_logistic_recalibrated,2084,2039,37,724,0.49489864315892107,0.33301497680279196,0.2269013744451518,0.34222840482506545
+post_hoc_exclude_cross_partition_patients,target_native_refit,2084,2039,37,724,0.6320076373090673,0.47210459841168134,0.2151727031836534,0.35494813042911216

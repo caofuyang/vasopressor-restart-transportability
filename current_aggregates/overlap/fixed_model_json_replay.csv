@@ -1,0 +1,4 @@
+model,max_absolute_prediction_difference,tolerance,judgement
+target_native_refit,1.2212453270876722e-15,1e-10,match
+source_intercept_recalibrated,0.0,1e-10,match
+source_logistic_recalibrated,0.0,1e-10,match
